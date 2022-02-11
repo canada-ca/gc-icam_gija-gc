@@ -1,4 +1,6 @@
-# gc-icam_gijia-gc
+# GC Identity, Credential, and Access Management (ICAM) Framework
+
+# Cadre de la Gestion des accès et des justificatifs d’identité (GIJIA) du GC 
 
 ## Project setup
 ```
