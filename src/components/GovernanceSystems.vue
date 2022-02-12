@@ -1,14 +1,14 @@
 <template>
-  <h2>Governance Systems and Processes</h2>
-  <button type="button" class="btn btn-light">Reporting & Analytics</button>
+  <div>
+    <h2>Governance Systems and Processes</h2>
+    <button type="button" class="btn btn-outline-secondary">
+      Reporting & Analytics
+    </button>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
