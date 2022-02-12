@@ -10,6 +10,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:Ancentury/gc-icam_gijia-gc.git master:gh-pages
 git push -f git@github.com:canada-ca/gc-icam_gijia-gc.git master:gh-pages
 cd -
