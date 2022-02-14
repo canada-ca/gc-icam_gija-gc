@@ -1,6 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <GovernanceSystems msg="Welcome to Your Vue.js App"/>
+  <GovernanceSystems />
 </template>
 
 <script>

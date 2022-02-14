@@ -5,10 +5,10 @@
       Reporting & Analytics
     </button>
     <button type="button" class="btn btn-outline-primary">
-      Reporting & Analytics
+      Access Certification & Discovery
     </button>
     <button type="button" class="btn btn-outline-primary">
-      Reporting & Analytics
+      Approval Workflows
     </button>
     <button type="button" class="btn btn-outline-primary">
       Reporting & Analytics
@@ -38,7 +38,6 @@ export default {
   padding: 1rem;
   margin: 2rem auto;
   border-radius: 2rem;
-  max-width: 40rem;
 }
 h2{
   padding-bottom: 0.2em;
