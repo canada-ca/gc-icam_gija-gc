@@ -1,6 +1,6 @@
 <template>
-  <div class="governance container"  style="cursor:pointer">
-    <h2><a href="https://ancentury.github.io/ICAM/identityManagement-en.html" style="color:white">Governance Systems and Processes</a></h2>
+  <div class="governance container">
+    <h2><a href="https://ancentury.github.io/ICAM/identityManagement-en.html" style="color:white; text-decoration:none">Governance Systems and Processes</a></h2>
     <button type="button" class="btn example-popover" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-content="the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy" title="Reporting & Analytics">
       Reporting & Analytics
     </button>
@@ -45,7 +45,7 @@ export default {
 
 <style>
 .governance{
-  background-color:darkblue;
+  background-color:#012061;
   color: white;
   padding: 1rem;
   margin: 2rem auto;
