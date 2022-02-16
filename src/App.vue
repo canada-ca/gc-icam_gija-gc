@@ -9,6 +9,22 @@ export default {
   name: 'App',
   components: {
     GovernanceSystems
+  },
+  data(){
+    return {
+      storedResources: [
+        {
+          id: '',
+          title: '',
+          description: '',
+        },
+        {
+          id: '',
+          title: '',
+          description: '',
+        }
+      ]
+    }
   }
 }
 </script>
