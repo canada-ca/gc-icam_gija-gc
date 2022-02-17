@@ -1,44 +1,53 @@
 <template>
   <div class="governance container">
-    <h2><a href="https://ancentury.github.io/ICAM/identityManagement-en.html" style="color:white; text-decoration:none">Governance Systems and Processes</a></h2>
-    <button type="button" class="btn example-popover" data-bs-trigger="hover focus" data-bs-toggle="popover" data-bs-content="the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy" title="Reporting & Analytics">
-      Reporting & Analytics
-    </button>
-    <button type="button" class="btn">
-      Access Certification & Discovery
-    </button>
-    <button type="button" class="btn">
-      Approval Workflows
-    </button>
-    <button type="button" class="btn">
-      Reporting & Analytics
-    </button>
-    <button type="button" class="btn">
-      Reporting & Analytics
-    </button>
-  </div>
+    <h2><a href="/governance-systems" style="color:white; text-decoration:none">Governance Systems and Processes</a></h2>
+    <div class="row">
+    <div class="col" v-for="resource in resources" :key="resource.id">
+      <popover-button :description="resource.description" :title="resource.title" >
+      {{resource.title}}
+    </popover-button></div>
+    </div>
+    </div>
 </template>
 
 <script>
-import { Popover } from 'bootstrap/dist/js/bootstrap.esm.min.js'
+import PopoverButton from './UI/PopoverButton.vue'
 export default {
+  components: {
+    PopoverButton
+  },
   data(){
     return {
-      resources: [{
-
-      }]
+      resources: [
+        {
+          id:"reporting-analytics",
+          title:"Reporting & Analytics",
+          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+        },
+        {
+          id:"reporting-analytics",
+          title:"Access Certification & Discovery",
+          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+        },
+        {
+          id:"reporting-analytics",
+          title:"Approval Workflows",
+          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+        },
+        {
+          id:"reporting-analytics",
+          title:"Reporting & Analytics",
+          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+        },
+        {
+          id:"reporting-analytics",
+          title:"Reporting & Analytics",
+          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+        }
+      ]
     }
   },
-  mounted(){
-    Array.from(document.querySelectorAll('[data-bs-toggle="popover"]'))
-        .forEach(popoverNode => new Popover(popoverNode));
-  },
   methods:{
-    governance(){
-    },
-    showDesc(){
-      
-    } 
   }
 };
 </script>

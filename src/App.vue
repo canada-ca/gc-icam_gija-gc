@@ -1,15 +1,10 @@
 <template>
-  <GovernanceSystems />
+  <router-view></router-view>
 </template>
 
 <script>
-import GovernanceSystems from './components/GovernanceSystems.vue'
-
 export default {
   name: 'App',
-  components: {
-    GovernanceSystems
-  },
   data(){
     return {
       storedResources: [
