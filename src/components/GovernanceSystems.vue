@@ -25,24 +25,24 @@ export default {
           description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
         },
         {
-          id:"reporting-analytics",
+          id:"access-certification",
           title:"Access Certification & Discovery",
-          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+          description:"the process of validating access rights within systems"
         },
         {
-          id:"reporting-analytics",
+          id:"approval-workflows",
           title:"Approval Workflows",
-          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+          description:"processes used to manage the life cycle of a digital identity including provisioning, on-going maintenance and de-provisioning of identity attributes"
         },
         {
-          id:"reporting-analytics",
-          title:"Reporting & Analytics",
-          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+          id:"policy-compliance",
+          title:"Policy and Compliance",
+          description:"processes used to ensure compliance to applicable organizational policies and legislation"
         },
         {
-          id:"reporting-analytics",
-          title:"Reporting & Analytics",
-          description:"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy"
+          id:"monitoring-auditing",
+          title:"Monitoring, Auditing and Logging",
+          description:"processes and tools used to support ongoing evaluation and assessment that various information systems are operating properly and are being used as intended"
         }
       ]
     }

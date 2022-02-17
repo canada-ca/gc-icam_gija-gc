@@ -1,5 +1,11 @@
 <template>
     <div class="container">
+      <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Identity Management</li>
+  </ol>
+</nav>
       <div class="row">
       <identity-management-card></identity-management-card>
       <div class="col-10" style="padding-top:7.5rem;">

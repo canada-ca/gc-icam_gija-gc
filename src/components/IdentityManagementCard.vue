@@ -1,6 +1,6 @@
 <template>
       <base-card class="identity col-2">
-        <h3 class="text-center text-white w-100"><a href="/identity-management" style="color:white; text-decoration:none">Identity <br>Management</a></h3>
+        <h2 class="text-center text-white w-100"><a href="/identity-management" style="color:white; text-decoration:none">Identity <br>Management</a></h2>
         <base-button>Identity Proofing</base-button>
         <base-button>Sponsorship</base-button>
         <base-button>Identity Establishment</base-button>

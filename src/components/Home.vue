@@ -8,7 +8,7 @@
       <governance-systems />
       <div class="row">
         <div class="col-2"></div>
-        <div class="col-2">
+        <div class="col-3">
           <identity-management-card />
         </div>        
       </div>
