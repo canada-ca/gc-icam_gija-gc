@@ -1,30 +1,62 @@
 <template>
-      <base-card class="identity">
-        <h4 class="text-center text-white w-100"><a href="/identity-management" style="color:white; text-decoration:none">Identity <br>Management</a></h4>
-        <base-button>Identity Proofing</base-button>
-        <base-button>Sponsorship</base-button>
-        <base-button>Identity Establishment</base-button>
-        <base-button>Entitlements and Roles</base-button>
-        <base-button>Identity Lifecycle Management
-        </base-button>
-        <base-button>Authoritative Attribute Exchange Service
-        </base-button>
-        <base-button>Identity Repositories
-        </base-button>
-        <base-button>Delegated Administration
-        </base-button>
-        <base-button>User Self-Service
-        </base-button>
-      </base-card>
+  <base-card class="identity">
+    <card-title>Identity <br>Management</card-title>
+    <popover-button v-for="identityManagement in identityManagements" :description="identityManagement.description" :title="identityManagement.title" :key="identityManagement.id">
+      {{identityManagement.title}}
+    </popover-button>
+  </base-card>
 </template>
 
 <script>
 import BaseCard from './UI/BaseCard.vue'
-import BaseButton from './UI/BaseButton.vue'
+import CardTitle from './UI/BaseCardTitle.vue'
+import PopoverButton from './UI/PopoverButton.vue'
 export default {
   components: {
     BaseCard,
-    BaseButton
+    PopoverButton,
+    CardTitle
+  },
+  data(){
+    return {
+      identityManagements:[
+        {
+          id:"identity-establishment",
+          title:"Identity Establishment",
+          description:"the creation of an authoritative record of identity that is relied on by others for subsequent government activities"
+        },
+        {
+          id:"entitlements-and",
+          title:"Entitlements and Roles",
+          description:"the set of privileges or entitlements associated with an entity that support informed access control decisions"
+        },
+        {
+          id:"identity-lifecycle",
+          title:"Identity Lifecycle Management",
+          description:"the provisioning, ongoing maintenance and de-provisioning of identity attributes"
+        },
+        {
+          id:"authoritative-attribute",
+          title:"Authoritative Attribute Exchange Service",
+          description:"a broker between multiple, disparate Authoritative Sources and the consumers of the identity information"
+        },
+        {
+          id:"identity-repositories",
+          title:"Identity Repositories",
+          description:"any data repository that stores identity information"
+        },
+        {
+          id:"delegated-administration",
+          title:"Delegated Administration",
+          description:"the de-centralization of certain system administration functions"
+        },
+        {
+          id:"user-self",
+          title:"User Self-Service",
+          description:"the ability to allow users to specify or change certain identity attributes"
+        },
+      ]
+    }
   }
 }
 </script>

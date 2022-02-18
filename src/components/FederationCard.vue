@@ -22,7 +22,7 @@ export default {
       federations:[
         {
           id:"centralized-authentication",
-          title:"Centralized Authentication/SSO Broker",
+          title:"Centralized Authentication / SSO Broker",
           description:"a component that enables organizations to connect multiple service providers with different identity providers (IdP), while also providing a single sign-on (SSO) capability on behalf of users"
         },
         {
