@@ -1,5 +1,5 @@
 <template>
-  <button type="button">
+  <button type="button" class="btn">
     <slot></slot>
   </button>
 </template>
@@ -10,8 +10,8 @@ export default {
 }
 </script>
 
-<style scoped>
-button {
+<style>
+button.btn {
   padding: 0.5rem;
   margin: 0.5rem 5%;
   font-family: inherit;
