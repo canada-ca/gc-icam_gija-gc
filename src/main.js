@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
 const router = createRouter({
-  history: createWebHistory('/gc-icam_gijia-gc/'),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
