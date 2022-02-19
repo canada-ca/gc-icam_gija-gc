@@ -1,6 +1,6 @@
 <template>
   <div class="governance container">
-    <h4><a href="/governance-systems" style="color:white; text-decoration:none">Governance Systems and Processes</a></h4>
+    <base-card-title>Governance Systems and Processes</base-card-title> 
     <div class="row">
     <div class="col" v-for="governanceSystem in governanceSystems" :key="governanceSystem.id">
       <popover-button :description="governanceSystem.description" :title="governanceSystem.title" >
@@ -11,10 +11,12 @@
 </template>
 
 <script>
+import BaseCardTitle from './UI/BaseCardTitle.vue';
 import PopoverButton from './UI/PopoverButton.vue'
 export default {
   components: {
-    PopoverButton
+    PopoverButton,
+    BaseCardTitle
   },
   data(){
     return {

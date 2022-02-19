@@ -1,6 +1,6 @@
 <template>
   <h4>
-    <a href="/identity-management">
+    <a href="#">
       <slot></slot>
     </a>
   </h4>

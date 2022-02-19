@@ -4,28 +4,36 @@
   <div class="row">
     <div class="col-2">
       <div class="row">
-    <div class="col-8">
-      <resource-consumers-card />
-    </div>
-    <div class="col-4">
-      <identity-proofing-card />
-    </div></div>
+        <div class="col-8">
+          <resource-consumers-card />
+        </div>
+        <div class="col-4">
+          <identity-proofing-card />
+        </div>
+      </div>
     </div>    
     <div class="col-10">
       <governance-systems />
       <div class="row">
         <div class="col-2">
+          <div class="linkLine" />                    
           <authoritative-sources-card />
         </div>
-        <div class="col-3">
-          <identity-management-card />
-        </div>
-        <div class="col-2">
-          <federation-card />
-        </div>  
-        <div class="col-3">
-          <access-management-card />
-        </div>     
+        <div class="col-8">
+          <div class="row">
+            <div class="col-5">
+              <identity-management-card />
+            </div>
+            <div class="col-3">
+              <federation-card />
+              <level-assurance />
+            </div>  
+            <div class="col-4">
+              <access-management-card />
+            </div>
+          </div>
+          <credential-management />     
+        </div>        
         <div class="col-2">
           <protected-resources-card />
         </div>       
@@ -44,6 +52,9 @@ import AccessManagementCard from './AccessManagementCard.vue'
 import ProtectedResourcesCard from './ProtectedResourcesCard.vue'
 import IdentityProofingCard from './IdentityProofingCard.vue'
 import ResourceConsumersCard from './ResourceConsumersCard.vue'
+import CredentialManagement from './CredentialManagement.vue'
+import LevelAssurance from './LevelAssurance.vue'
+
 export default {  
   components: {
     GovernanceSystems,
@@ -53,7 +64,9 @@ export default {
     AccessManagementCard,
     ProtectedResourcesCard,
     IdentityProofingCard,
-    ResourceConsumersCard
+    ResourceConsumersCard,
+    CredentialManagement,
+    LevelAssurance
   },
   mounted(){
     Array.from(document.querySelectorAll('[data-bs-toggle="popover"]'))
@@ -61,3 +74,11 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.linkLine{
+  margin: 1rem -1rem;
+  border: dotted 0.1rem black;
+  height: 0rem;
+}
+</style>
