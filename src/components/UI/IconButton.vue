@@ -1,11 +1,17 @@
 <template>
-  <button type="button" class="btn example-popover" data-bs-trigger="hover focus" data-bs-toggle="popover" :data-bs-content="description" :title="title">
-      <slot></slot>
-    </button>
+  <img :src="srcUrl" :alt="srcAlt">
 </template>
 
 <script>
 export default {
-  props: ['title', 'description'], 
+  props: ['srcUrl', 'srcAlt'], 
 }
 </script>
+
+<style scoped>
+img{
+  width:4rem;
+  display:block;
+  margin:0.5rem auto;
+}
+</style>
