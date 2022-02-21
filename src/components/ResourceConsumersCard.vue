@@ -28,8 +28,8 @@ export default {
         },
         {
           id:"businesses-and",
-          iconImg:"/assets/user.png",
-          iconAlt:"Users",
+          iconImg:"/assets/business.png",
+          iconAlt:"Businesses and Organizations",
           title:"Businesses and Organizations",
           description:"businesses and other levels of government that interact with the GC"
         },
@@ -66,5 +66,9 @@ export default {
 }
 .resourceConsumers h4{
   color: black;
+}
+button{
+  border:none;
+  background-color: #fff;
 }
 </style>
