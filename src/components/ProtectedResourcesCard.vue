@@ -21,34 +21,34 @@ export default {
     return {
       protectedResources:[
         {
-          id:"directories-inventory",
-          title:"Directories & Inventory Systems",
-          description:"systems or data repositories that store information about users and NPEs"
+          id:"applications-services",
+          title:"Applications, Services and APIs",
+          description:"GC applications and services consumed by internal and external entities"
         },
         {
-          id:"hr-pay",
-          title:"HR, Pay & Screening Systems",
-          description:"sources of certain identity information associated with internal users"
+          id:"cloud",
+          title:"Cloud",
+          description:"on demand computing resources used by the GC to deliver services to internal and external entities"
         },
         {
-          id:"international-sources",
-          title:"International Sources",
-          description:"sources of identity information for non-Canadian citizens"
+          id:"devices",
+          title:"Devices",
+          description:"any managed device used to support GC operations"
         },
         {
-          id:"other-levels",
-          title:"Other Levels of Government",
-          description:"sources of information for internal user, external users and businesses"
+          id:"platforms-middleware",
+          title:"Platforms / Middleware",
+          description:"the operating system and the computer that it runs on, combined with software that acts as a bridge between the operating system (or database) and various programs/applications"
         },
         {
-          id:"industry-sources",
-          title:"Industry Sources",
-          description:"sources of information for external users and businesses"
+          id:"infrastructure",
+          title:"Infrastructure",
+          description:"a wide range of technologies that include network components, appliances, servers and data centres"
         },
         {
-          id:"other-sources",
-          title:"Other Sources",
-          description:"sources of information for external users and businesses"
+          id:"facilities",
+          title:"Facilities",
+          description:"GC buildings or restricted areas that require controlled physical access"
         },
       ]
     }    
