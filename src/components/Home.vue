@@ -16,8 +16,9 @@
       <governance-systems />
       <div class="row">
         <div class="col-2">
-          <div class="linkLine" />                    
+          <div class="linkLine" />
           <authoritative-sources-card />
+          <img src="/assets/arrowSmall.png" alt="Arrow" style="margin-left: -12rem; margin-top:-35rem;width: 3rem;height:1rem" />   
         </div>
         <div class="col-8">
           <div class="row">

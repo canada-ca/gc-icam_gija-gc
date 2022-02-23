@@ -1,5 +1,6 @@
 <template>
   <base-card class="authoritative">
+  <img src="/assets/arrowSmall.png" alt="Arrow" style="margin-left: -12rem; width: 3rem" />
     <card-title>Authoritative <br>Sources</card-title>
     <popover-button v-for="authoritativeSource in authoritativeSources" :description="authoritativeSource.description" :title="authoritativeSource.title" :key="authoritativeSource.id">
       {{authoritativeSource.title}}
