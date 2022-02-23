@@ -7,15 +7,13 @@
       </ol>
     </nav>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-2">
         <identity-management-card></identity-management-card>
       </div>
-      <div class="col-md-1" style="padding-top:7.5rem;">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-        </svg>
+      <div class="col-1" style="padding-top:7.5rem;">
+        <fa icon="right-long"></fa>
       </div>
-      <div class="col-md-8" style="padding-top:7.5rem;">  
+      <div class="col-9" style="padding-top:7rem;">  
         <p class="text-start">the function of collecting evidence [identity attributes] which supports a claim of identity [for a specific entity] and the validation and verification of that evidence so as to determine the veracity (or otherwise) of the claim</p>
       </div>
     </div>
@@ -32,7 +30,4 @@ export default {
 </script>
 
 <style scoped>
-.identity {
-  background-color: #c00000;
-}
 </style>
