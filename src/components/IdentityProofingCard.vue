@@ -45,7 +45,7 @@ export default {
 }
 #sponsorship{
   width: 25rem;
-  margin: 25rem 0.5rem 2rem;
+  margin: 22rem 0.5rem 2rem;
   transform-origin: 0 0;
   transform: rotate(-90deg);
 }
