@@ -1,6 +1,6 @@
 <template>  
 <div class="container-fluid">
-  <div class="alert alert-primary" role="alert">Click title to see details, mouse over buttons to see description.</div>
+  <div class="alert alert-primary" role="alert"><fa icon="circle-exclamation"></fa>Click title to see details, mouse over buttons to see description.</div>
   <div class="row">
     <div class="col-2">
       <div class="row">

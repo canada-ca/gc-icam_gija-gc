@@ -5,22 +5,6 @@
 <script>
 export default {
   name: 'App',
-  data(){
-    return {
-      storedResources: [
-        {
-          id: '',
-          title: '',
-          description: '',
-        },
-        {
-          id: '',
-          title: '',
-          description: '',
-        }
-      ]
-    }
-  }
 }
 </script>
 
