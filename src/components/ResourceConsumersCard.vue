@@ -2,7 +2,7 @@
   <div class="resourceConsumers">
     <h5>Resource <br>Consumers</h5>
     <popover-button v-for="resourceConsumer in resourceConsumers" :description="resourceConsumer.description" :title="resourceConsumer.title" :key="resourceConsumer.id">
-      <icon-button :srcUrl="resourceConsumer.iconImg" :srcAlt="resourceConsumer.iconAlt" />
+      <icon-button :srcUrl="resourceConsumer.iconImg" :srcAlt="resourceConsumer.iconAlt" :class="resourceConsumer.id==='devices' ? 'wider' : '' " />
       {{resourceConsumer.title}}
     </popover-button>
   </div>
@@ -56,6 +56,14 @@ export default {
         },
       ]
     }    
+  },
+  computed:{
+    makeWider(id){
+      if(id==='devices'){
+        return 'wider';
+      }
+      return '';
+    }
   }
 }
 </script>
@@ -70,5 +78,9 @@ export default {
 button{
   border:none;
   background-color: #fff;
+}
+.wider{
+  width: 8rem;
+  margin-left: -1rem;
 }
 </style>

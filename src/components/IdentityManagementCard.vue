@@ -1,6 +1,6 @@
 <template>
   <base-card class="identity">
-    <card-title>Identity <br>Management</card-title>
+    <card-title><a href="/identity-management">Identity <br>Management</a></card-title>
     <popover-button v-for="identityManagement in identityManagements" :description="identityManagement.description" :title="identityManagement.title" :key="identityManagement.id">
       {{identityManagement.title}}
     </popover-button>

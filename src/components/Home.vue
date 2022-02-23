@@ -1,6 +1,6 @@
 <template>  
 <div class="container-fluid">
-  <div class="alert alert-primary" role="alert"><fa icon="circle-exclamation"></fa>Click title to see details, mouse over buttons to see description.</div>
+  <div class="alert alert-primary" role="alert"><fa icon="circle-exclamation"></fa> Click title to see details, mouse over buttons to see description.</div>
   <div class="row">
     <div class="col-2">
       <div class="row">
@@ -10,7 +10,7 @@
         <div class="col-2">
           <img src="/assets/arrowSmall.png" alt="Arrow" style="margin-top:7rem;width: 3rem;" />
           <img src="/assets/arrowCross.png" alt="Arrow" style="margin-top:5rem;margin-left:-2rem;width: 5rem;" />
-          <img src="/assets/arrowSmall.png" alt="Arrow" style="margin-top:8rem;width: 3rem;" />
+          <img src="/assets/arrowSmall.png" alt="Arrow" style="margin-top:9rem;width: 3rem;" />
           <img src="/assets/arrowSmall.png" alt="Arrow" style="margin-top:7rem;width: 3rem;" />
           <img src="/assets/arrowSmall.png" alt="Arrow" style="margin-top:7rem;width: 3rem;" />
         </div>
