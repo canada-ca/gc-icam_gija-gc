@@ -1,6 +1,6 @@
 <template>
   <vertical-card class="identityProofing">
-    <popover-button class="rotate" v-for="identityProofing in identityProofings" :description="identityProofing.description" :title="identityProofing.title" :key="identityProofing.id">
+    <popover-button :id="identityProofing.id" v-for="identityProofing in identityProofings" :description="identityProofing.description" :title="identityProofing.title" :key="identityProofing.id">
       {{identityProofing.title}}
     </popover-button>
   </vertical-card>
@@ -37,9 +37,15 @@ export default {
 .identityProofing {
   background-color: #c00000;
 }
-.rotate{
-  width: 20rem;
-  margin: 20rem 0.5rem 2rem;
+#identity-proofing{
+  width: 12rem;
+  margin: 12rem 0.5rem 2rem;
+  transform-origin: 0 0;
+  transform: rotate(-90deg);
+}
+#sponsorship{
+  width: 25rem;
+  margin: 25rem 0.5rem 2rem;
   transform-origin: 0 0;
   transform: rotate(-90deg);
 }
