@@ -1,13 +1,13 @@
 <template>
-  <h4>
+  <h5>
     <a href="#">
       <slot></slot>
     </a>
-  </h4>
+  </h5>
 </template>
 
 <style scoped>
-h4 a{
+h5 a{
   color:white; 
   text-decoration:none;
 }
