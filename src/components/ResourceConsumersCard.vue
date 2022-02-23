@@ -1,6 +1,6 @@
 <template>
   <div class="resourceConsumers">
-    <h4>Resource <br>Consumers</h4>
+    <h5>Resource <br>Consumers</h5>
     <popover-button v-for="resourceConsumer in resourceConsumers" :description="resourceConsumer.description" :title="resourceConsumer.title" :key="resourceConsumer.id">
       <icon-button :srcUrl="resourceConsumer.iconImg" :srcAlt="resourceConsumer.iconAlt" />
       {{resourceConsumer.title}}
@@ -35,22 +35,22 @@ export default {
         },
         {
           id:"devices",
-          iconImg:"/assets/user.png",
-          iconAlt:"Users",
+          iconImg:"/assets/devices.png",
+          iconAlt:"Devices",
           title:"Devices",
           description:"any device that needs to be authenticated to gain access to GC system and information resources"
         },
         {
           id:"applications",
-          iconImg:"/assets/user.png",
-          iconAlt:"Users",
+          iconImg:"/assets/applications.png",
+          iconAlt:"Applications",
           title:"Applications",
           description:"applications and services that interact with one another"
         },
         {
           id:"ai-robots",
-          iconImg:"/assets/user.png",
-          iconAlt:"Users",
+          iconImg:"/assets/robots.png",
+          iconAlt:"AI/Robots",
           title:"AI/Robots",
           description:"advanced technologies that can act on behalf of a user or embedded in a device or application"
         },
@@ -64,7 +64,7 @@ export default {
 .resourceConsumers {
   background-color: #fff;
 }
-.resourceConsumers h4{
+.resourceConsumers h5{
   color: black;
 }
 button{
