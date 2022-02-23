@@ -21,7 +21,7 @@ button.btn {
   border-radius: 0.5rem;
   cursor: pointer;
   width:90%;
-  min-width: 8rem;
+  /* min-width: 8rem; */
 }
 
 button:hover,
