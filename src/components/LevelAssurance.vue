@@ -1,12 +1,12 @@
 <template>
   <img
-    src="/assets/arrowUp.png"
+    src="assets/arrowUp.png"
     alt="Arrow"
     style="margin-top: -1rem; height: 5rem"
   />
   <div class="row">
     <img
-      src="/assets/arrowLeft.png"
+      src="assets/arrowLeft.png"
       class="col g-0"
       alt="Left Arrow"
       style="margin-left: -2rem; width: 4rem; height: 2rem; margin-top: 1rem"
@@ -21,14 +21,14 @@
       ></popover-button
     >
     <img
-      src="/assets/arrowRight.png"
+      src="assets/arrowRight.png"
       class="col g-0"
       alt="Right Arrow"
       style="margin-right: -2rem; width: 4rem; height: 2rem; margin-top: 1rem"
     />
   </div>
   <img
-    src="/assets/arrowDown.png"
+    src="assets/arrowDown.png"
     alt="Arrow"
     style="margin-bottom: -1rem; height: 5rem"
   />
