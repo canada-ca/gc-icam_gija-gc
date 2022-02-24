@@ -30,7 +30,7 @@ export default {
       resourceConsumers: [
         {
           id: "users",
-          iconImg: "/../assets/user.png",
+          iconImg: "assets/user.png",
           iconAlt: "Users",
           title: "Users",
           description:
@@ -38,7 +38,7 @@ export default {
         },
         {
           id: "businesses-and",
-          iconImg: "/assets/business.png",
+          iconImg: "assets/business.png",
           iconAlt: "Businesses and Organizations",
           title: "Businesses and Organizations",
           description:
@@ -46,7 +46,7 @@ export default {
         },
         {
           id: "devices",
-          iconImg: "/assets/devices.png",
+          iconImg: "assets/devices.png",
           iconAlt: "Devices",
           title: "Devices",
           description:
@@ -54,7 +54,7 @@ export default {
         },
         {
           id: "applications",
-          iconImg: "/assets/applications.png",
+          iconImg: "assets/applications.png",
           iconAlt: "Applications",
           title: "Applications",
           description:
@@ -62,7 +62,7 @@ export default {
         },
         {
           id: "ai-robots",
-          iconImg: "/assets/robots.png",
+          iconImg: "assets/robots.png",
           iconAlt: "AI/Robots",
           title: "AI/Robots",
           description:
