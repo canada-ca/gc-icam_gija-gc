@@ -5,8 +5,9 @@
 </template>
 
 <style>
-h5, h5 a{
-  color:white; 
-  text-decoration:none;
+h5,
+h5 a {
+  color: white;
+  text-decoration: none;
 }
 </style>

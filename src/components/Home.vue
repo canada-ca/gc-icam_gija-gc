@@ -48,6 +48,7 @@
       </div>
     </div>
   </div>
+  <modal-card />
 </div>  
 </template>
 <script>
@@ -62,6 +63,7 @@ import IdentityProofingCard from './IdentityProofingCard.vue'
 import ResourceConsumersCard from './ResourceConsumersCard.vue'
 import CredentialManagement from './CredentialManagement.vue'
 import LevelAssurance from './LevelAssurance.vue'
+import ModalCard from './UI/ModalCard.vue'
 
 export default {  
   components: {
@@ -74,7 +76,8 @@ export default {
     IdentityProofingCard,
     ResourceConsumersCard,
     CredentialManagement,
-    LevelAssurance
+    LevelAssurance,
+    ModalCard
   },
   mounted(){
     Array.from(document.querySelectorAll('[data-bs-toggle="popover"]'))
