@@ -45,7 +45,7 @@ export default {
       levelOfAssurance: {
         title: "Levels of Assurance",
         description:
-          "There are four Levels of Assurance (LoAs) ranging from LoA 1 (the lowest level) to LoA 4 (the highest level) associated with identity, credentials and authentication as defined in the following GC policy instruments and guidance documents",
+          "There are four Levels of Assurance (LoAs) ranging from LoA 1 (the lowest level) to LoA 4 (the highest level) associated with identity, credentials and authentication as defined in the applicable GC policy instruments and guidance documents",
       },
     };
   },
