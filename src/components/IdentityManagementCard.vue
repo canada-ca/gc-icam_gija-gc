@@ -1,7 +1,9 @@
 <template>
   <base-card class="identity">
     <card-title
-      ><a href="identity-management">Identity <br />Management</a></card-title
+      ><router-link to="/identity-management"
+        >Identity <br />Management</router-link
+      ></card-title
     >
     <popover-button
       v-for="identityManagement in identityManagements"
@@ -74,7 +76,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .identity {
   background-color: #c00000;
 }
