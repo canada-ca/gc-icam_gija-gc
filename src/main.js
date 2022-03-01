@@ -8,6 +8,7 @@ import BaseButton from './components/UI/BaseButton.vue'
 import BaseCard from './components/UI/BaseCard.vue'
 import GovernanceSystems from './components/GovernanceSystems.vue'
 import IdentityManagement from './components/IdentityManagement.vue'
+import AccessManagement from './components/AccessManagement.vue'
 import Home from './components/Home.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
@@ -28,6 +29,10 @@ const router = createRouter({
     {
       path: '/identity-management',
       component: IdentityManagement
+    },
+    {
+      path: '/access-management',
+      component: AccessManagement
     }
   ]
 })

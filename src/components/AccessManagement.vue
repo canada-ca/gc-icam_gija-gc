@@ -1,5 +1,5 @@
 <template>
-  <Description :header="header" :mode="governance" />
+  <Description :header="header" :mode="access" />
 </template>
 
 <script>
@@ -10,8 +10,8 @@ export default {
   },
   data() {
     return {
-      header: "Governance Systems",
-      governance: "governance",
+      header: "Access Management",
+      access: "access",
       identityManagements: [
         {
           id: "identity-proofing",
