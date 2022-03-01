@@ -43,7 +43,7 @@
         </div>
       </div>
       <div class="col-10">
-        <governance-systems />
+        <governance-systems-card />
         <div class="row">
           <div class="col-2">
             <div class="linkLine" />
@@ -84,7 +84,7 @@
   </div>
 </template>
 <script>
-import GovernanceSystems from "./GovernanceSystems.vue";
+import GovernanceSystemsCard from "./GovernanceSystemsCard.vue";
 import IdentityManagementCard from "./IdentityManagementCard.vue";
 import { Popover } from "bootstrap/dist/js/bootstrap.esm.min.js";
 import AuthoritativeSourcesCard from "./AuthoritativeSourcesCard.vue";
@@ -99,7 +99,7 @@ import ModalCard from "./UI/ModalCard.vue";
 
 export default {
   components: {
-    GovernanceSystems,
+    GovernanceSystemsCard,
     IdentityManagementCard,
     AuthoritativeSourcesCard,
     FederationCard,

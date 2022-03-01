@@ -1,17 +1,40 @@
 <template>
-  <Description :header="header" />
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+        <li class="breadcrumb-item active" aria-current="page">
+          {{ header }}
+        </li>
+      </ol>
+    </nav>
+    <div class="row">
+      <div class="col-2 identity start pt-3">
+        <h5>{{ header }}</h5>
+      </div>
+    </div>
+    <description-card
+      v-for="item in items"
+      :key="item.id"
+      :title="item.title"
+      :description="item.description"
+    ></description-card>
+    <div class="row">
+      <div class="col-2 identity end">&nbsp;</div>
+    </div>
+  </div>
 </template>
 
 <script>
-import Description from "./UI/Description.vue";
+import DescriptionCard from "./DescriptionCard.vue";
 export default {
   components: {
-    Description,
+    DescriptionCard,
   },
+  props: ["header"],
   data() {
     return {
-      header: "Governance Systems",
-      identityManagements: [
+      items: [
         {
           id: "identity-proofing",
           title: "Identity Proofing",
