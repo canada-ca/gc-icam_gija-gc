@@ -77,7 +77,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .access {
   background-color: #004cb1;
 }
