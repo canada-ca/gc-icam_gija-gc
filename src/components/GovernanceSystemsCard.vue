@@ -1,5 +1,5 @@
 <template>
-  <div class="governance container">
+  <base-card class="governance container">
     <base-card-title
       ><router-link to="/governance-systems"
         >Governance Systems and Processes</router-link
@@ -19,16 +19,18 @@
         </popover-button>
       </div>
     </div>
-  </div>
+  </base-card>
 </template>
 
 <script>
+import BaseCard from "./UI/BaseCard.vue";
 import BaseCardTitle from "./UI/BaseCardTitle.vue";
 import PopoverButton from "./UI/PopoverButton.vue";
 export default {
   components: {
     PopoverButton,
     BaseCardTitle,
+    BaseCard,
   },
   data() {
     return {
@@ -72,8 +74,5 @@ export default {
 <style>
 .governance {
   background-color: #012061;
-  color: white;
-  padding: 1rem;
-  border-radius: 2rem;
 }
 </style>

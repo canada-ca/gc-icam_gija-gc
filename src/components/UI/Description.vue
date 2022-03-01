@@ -9,7 +9,7 @@
       </ol>
     </nav>
     <div class="row">
-      <div class="col-2 identity start pt-3">
+      <div class="col-2 start pt-3" :class="mode">
         <h5>{{ header }}</h5>
       </div>
     </div>
@@ -18,9 +18,10 @@
       :key="item.id"
       :title="item.title"
       :description="item.description"
+      :mode="mode"
     ></description-card>
     <div class="row">
-      <div class="col-2 identity end">&nbsp;</div>
+      <div class="col-2 end" :class="mode">&nbsp;</div>
     </div>
   </div>
 </template>
@@ -31,7 +32,7 @@ export default {
   components: {
     DescriptionCard,
   },
-  props: ["header"],
+  props: ["header", "mode"],
   data() {
     return {
       items: [

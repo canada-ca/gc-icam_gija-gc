@@ -1,6 +1,6 @@
 <template>
   <div class="row align-items-center">
-    <div class="col-2 identity">
+    <div class="col-2" :class="mode">
       <base-button>{{ title }}</base-button>
     </div>
     <div class="col-1">
@@ -14,6 +14,6 @@
 import BaseButton from "./BaseButton.vue";
 export default {
   components: { BaseButton },
-  props: ["title", "description"],
+  props: ["title", "description", "mode"],
 };
 </script>
