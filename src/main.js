@@ -9,6 +9,7 @@ import BaseCard from './components/UI/BaseCard.vue'
 import GovernanceSystems from './components/GovernanceSystems.vue'
 import AuthoritativeSources from './components/AuthoritativeSources.vue'
 import IdentityManagement from './components/IdentityManagement.vue'
+import Federation from './components/Federation.vue'
 import AccessManagement from './components/AccessManagement.vue'
 import Home from './components/Home.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -34,6 +35,10 @@ const router = createRouter({
     {
       path: '/identity-management',
       component: IdentityManagement
+    },
+    {
+      path: '/federation',
+      component: Federation
     },
     {
       path: '/access-management',
