@@ -11,14 +11,14 @@
       alt="Left Arrow"
       style="margin-left: -2rem; width: 4rem; height: 2rem; margin-top: 1rem"
     />
-    <popover-button
-      id="levels"
-      class="col g-0"
-      :description="levelOfAssurance.description"
-      :title="levelOfAssurance.title"
-      ><a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-        >Levels of Assurance</a
-      ></popover-button
+    <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+      ><popover-button
+        id="levels"
+        class="col g-0"
+        :description="levelOfAssurance.description"
+        :title="levelOfAssurance.title"
+        >Levels of Assurance</popover-button
+      ></a
     >
     <img
       src="assets/arrowRight.png"
