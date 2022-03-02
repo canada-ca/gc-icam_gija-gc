@@ -72,7 +72,7 @@
                 <access-management-card />
               </div>
             </div>
-            <credential-management />
+            <credential-management-card />
           </div>
           <div class="col-2">
             <protected-resources-card />
@@ -93,7 +93,7 @@ import AccessManagementCard from "./AccessManagementCard.vue";
 import ProtectedResourcesCard from "./ProtectedResourcesCard.vue";
 import IdentityProofingCard from "./IdentityProofingCard.vue";
 import ResourceConsumersCard from "./ResourceConsumersCard.vue";
-import CredentialManagement from "./CredentialManagement.vue";
+import CredentialManagementCard from "./CredentialManagementCard.vue";
 import LevelAssurance from "./LevelAssurance.vue";
 import ModalCard from "./UI/ModalCard.vue";
 
@@ -107,7 +107,7 @@ export default {
     ProtectedResourcesCard,
     IdentityProofingCard,
     ResourceConsumersCard,
-    CredentialManagement,
+    CredentialManagementCard,
     LevelAssurance,
     ModalCard,
   },
