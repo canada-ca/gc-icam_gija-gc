@@ -1,6 +1,10 @@
 <template>
   <div class="resourceConsumers">
-    <h5>Resource <br />Consumers</h5>
+    <h5>
+      <router-link to="/resource-consumers"
+        >Resource <br />Consumers</router-link
+      >
+    </h5>
     <popover-button
       v-for="resourceConsumer in resourceConsumers"
       :description="resourceConsumer.description"
@@ -86,7 +90,8 @@ export default {
 .resourceConsumers {
   background-color: #fff;
 }
-.resourceConsumers h5 {
+h5,
+h5 a {
   color: black;
 }
 button {

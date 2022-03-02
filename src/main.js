@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import App from './App.vue'
 import BaseButton from './components/UI/BaseButton.vue'
 import BaseCard from './components/UI/BaseCard.vue'
+import ResourceConsumers from './components/ResourceConsumers.vue'
 import GovernanceSystems from './components/GovernanceSystems.vue'
 import AuthoritativeSources from './components/AuthoritativeSources.vue'
 import IdentityManagement from './components/IdentityManagement.vue'
@@ -24,6 +25,10 @@ const router = createRouter({
     {
       path: '/',
       component: Home
+    },
+    {
+      path: '/resource-consumers',
+      component: ResourceConsumers
     },
     {
       path: '/governance-systems',
