@@ -13,6 +13,7 @@ import IdentityManagement from './components/IdentityManagement.vue'
 import Federation from './components/Federation.vue'
 import AccessManagement from './components/AccessManagement.vue'
 import ProtectedResources from './components/ProtectedResources.vue'
+import CredentialManagement from './components/CredentialManagement.vue'
 import Home from './components/Home.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
@@ -53,6 +54,10 @@ const router = createRouter({
     {
       path: '/protected-resources',
       component: ProtectedResources
+    },
+    {
+      path: '/credential-management',
+      component: CredentialManagement
     }
   ]
 })
