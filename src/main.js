@@ -7,6 +7,7 @@ import App from './App.vue'
 import BaseButton from './components/UI/BaseButton.vue'
 import BaseCard from './components/UI/BaseCard.vue'
 import GovernanceSystems from './components/GovernanceSystems.vue'
+import AuthoritativeSources from './components/AuthoritativeSources.vue'
 import IdentityManagement from './components/IdentityManagement.vue'
 import AccessManagement from './components/AccessManagement.vue'
 import Home from './components/Home.vue'
@@ -25,6 +26,10 @@ const router = createRouter({
     {
       path: '/governance-systems',
       component: GovernanceSystems
+    },
+    {
+      path: '/authoritative-sources',
+      component: AuthoritativeSources
     },
     {
       path: '/identity-management',

@@ -5,7 +5,11 @@
       alt="Arrow"
       style="margin-left: -12rem; width: 3rem"
     />
-    <card-title>Authoritative <br />Sources</card-title>
+    <card-title
+      ><router-link to="/authoritative-sources"
+        >Authoritative Sources</router-link
+      ></card-title
+    >
     <popover-button
       v-for="authoritativeSource in authoritativeSources"
       :description="authoritativeSource.description"
@@ -72,7 +76,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .authoritative {
   background-color: #555;
 }
