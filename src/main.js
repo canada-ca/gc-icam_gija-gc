@@ -11,6 +11,7 @@ import AuthoritativeSources from './components/AuthoritativeSources.vue'
 import IdentityManagement from './components/IdentityManagement.vue'
 import Federation from './components/Federation.vue'
 import AccessManagement from './components/AccessManagement.vue'
+import ProtectedResources from './components/ProtectedResources.vue'
 import Home from './components/Home.vue'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
@@ -43,6 +44,10 @@ const router = createRouter({
     {
       path: '/access-management',
       component: AccessManagement
+    },
+    {
+      path: '/protected-resources',
+      component: ProtectedResources
     }
   ]
 })
