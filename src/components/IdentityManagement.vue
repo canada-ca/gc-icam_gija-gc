@@ -1,36 +1,17 @@
 <template>
-  <div class="container">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
-        <li class="breadcrumb-item active" aria-current="page">
-          Identity Management
-        </li>
-      </ol>
-    </nav>
-    <div class="row">
-      <div class="col-2 identity start pt-3"><h5>Identity Management</h5></div>
-    </div>
-    <description-card
-      v-for="identityManagement in identityManagements"
-      :key="identityManagement.id"
-      :title="identityManagement.title"
-      :description="identityManagement.description"
-    ></description-card>
-    <div class="row">
-      <div class="col-2 identity end">&nbsp;</div>
-    </div>
-  </div>
+  <description :header="header" :mode="identity" />
 </template>
 
 <script>
-import DescriptionCard from "./UI/DescriptionCard.vue";
+import Description from "./UI/Description.vue";
 export default {
   components: {
-    DescriptionCard,
+    Description,
   },
   data() {
     return {
+      header: "Identity Management",
+      identity: "identity",
       identityManagements: [
         {
           id: "identity-proofing",
@@ -90,14 +71,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.start {
-  border-start-start-radius: 2rem;
-  border-start-end-radius: 2rem;
-}
-.end {
-  border-end-start-radius: 2rem;
-  border-end-end-radius: 2rem;
-}
-</style>
