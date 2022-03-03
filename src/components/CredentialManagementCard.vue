@@ -26,6 +26,8 @@
 import BaseCard from "./UI/BaseCard.vue";
 import BaseCardTitle from "./UI/BaseCardTitle.vue";
 import PopoverButton from "./UI/PopoverButton.vue";
+import credentialManagement from "../resources/credentialManagement.json";
+
 export default {
   components: {
     PopoverButton,
@@ -34,25 +36,7 @@ export default {
   },
   data() {
     return {
-      credentialManagements: [
-        {
-          id: "credential-service",
-          title: "Credential Service Providers",
-          description:
-            "a trusted entity that issues or registers subscriber authenticators and issues electronic credentials to subscribers",
-        },
-        {
-          id: "credential-repositories",
-          title: "Credential Repositories",
-          description: "any data repository or system that stores credentials",
-        },
-        {
-          id: "credential-lifecycle",
-          title: "Credential Lifecycle Management",
-          description:
-            "the creation, issuance and ongoing maintenance of credentials and authenticators",
-        },
-      ],
+      credentialManagements: credentialManagement,
     };
   },
   methods: {},

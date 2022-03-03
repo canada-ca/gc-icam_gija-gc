@@ -19,9 +19,7 @@
             aria-label="Close"
           ></button>
         </div>
-        <div class="modal-body" id="modalBody">
-          {{ modalBody }}
-        </div>
+        <div class="modal-body" v-html="modalBody"></div>
       </div>
     </div>
   </div>
@@ -30,12 +28,6 @@
 <script>
 export default {
   props: ["modalHead", "modalBody"],
-  // created() {
-  //   let mbody = document.getElementById("modalBody");
-  //   if (mbody != null) {
-  //     mbody.innerHTML = this.modalBody;
-  //   }
-  // },
 };
 </script>
 
@@ -44,7 +36,7 @@ h5 {
   color: black;
 }
 p,
-li {
+.modal-body {
   text-align: left;
 }
 </style>
