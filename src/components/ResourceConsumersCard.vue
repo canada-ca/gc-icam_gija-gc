@@ -94,6 +94,9 @@ h5,
 h5 a {
   color: black;
 }
+h5 a:hover {
+  color: #7030a0;
+}
 button {
   border: none;
   background-color: #fff;
