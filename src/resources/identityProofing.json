@@ -1,0 +1,11 @@
+[{
+        "id": "identity-proofing",
+        "title": "Identity Proofing",
+        "description": "the function of collecting evidence [identity attributes] which supports a claim of identity [for a specific entity] and the validation and verification of that evidence so as to determine the veracity (or otherwise) of the claim"
+    },
+    {
+        "id": "sponsorship",
+        "title": "Sponsorship",
+        "description": "to formally establish that an organization or Non-Person Entities (NPE) entity requires access to GC resources"
+    }
+]
