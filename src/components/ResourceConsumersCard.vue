@@ -24,55 +24,16 @@
 <script>
 import IconButton from "./UI/IconButton.vue";
 import PopoverButton from "./UI/PopoverButton.vue";
+import resourceConsumers from "../resources/resourceConsumers.json";
+
 export default {
   components: {
     PopoverButton,
-    IconButton,
+    IconButton
   },
   data() {
     return {
-      resourceConsumers: [
-        {
-          id: "users",
-          iconImg: "assets/user.png",
-          iconAlt: "Users",
-          title: "Users",
-          description:
-            "internal and external consumers of GC system and information resources",
-        },
-        {
-          id: "businesses-and",
-          iconImg: "assets/business.png",
-          iconAlt: "Businesses and Organizations",
-          title: "Businesses and Organizations",
-          description:
-            "businesses and other levels of government that interact with the GC",
-        },
-        {
-          id: "devices",
-          iconImg: "assets/devices.png",
-          iconAlt: "Devices",
-          title: "Devices",
-          description:
-            "any device that needs to be authenticated to gain access to GC system and information resources",
-        },
-        {
-          id: "applications",
-          iconImg: "assets/applications.png",
-          iconAlt: "Applications",
-          title: "Applications",
-          description:
-            "applications and services that interact with one another",
-        },
-        {
-          id: "ai-robots",
-          iconImg: "assets/robots.png",
-          iconAlt: "AI/Robots",
-          title: "AI/Robots",
-          description:
-            "advanced technologies that can act on behalf of a user or embedded in a device or application",
-        },
-      ],
+      resourceConsumers
     };
   },
   computed: {
@@ -81,8 +42,8 @@ export default {
         return "wider";
       }
       return "";
-    },
-  },
+    }
+  }
 };
 </script>
 
