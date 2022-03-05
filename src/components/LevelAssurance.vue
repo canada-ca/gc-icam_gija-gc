@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     showDetail() {
-      this.$emit(this.levelOfAssurance.detail);
+      this.$emit("detail", this.levelOfAssurance.detail);
     }
   }
 };
