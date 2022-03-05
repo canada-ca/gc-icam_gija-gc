@@ -111,9 +111,13 @@ export default {
     LevelAssurance,
     ModalCard,
   },
+  computed: {
+    modalHead() {
+      return "Level of Assurance";
+    },
+  },
   data() {
     return {
-      modalHead: "Level of Assurance",
       modalBody: `<p>
             There are four Levels of Assurance (LoAs) ranging from LoA 1 (the
             lowest level) to LoA 4 (the highest level) associated with identity,
