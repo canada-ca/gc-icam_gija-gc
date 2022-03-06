@@ -21,7 +21,7 @@ import "bootstrap"
 library.add(fas)
 
 const router = createRouter({
-  history: createWebHistory('/gc-icam_gijia-gc/'),
+  history: createWebHistory(process.env.BASE_URL),
   routes: [
     {
       path: '/',

@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: '/gc-icam_gijia-gc/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/gc-icam_gijia-gc/'
+    : '/'
 }
