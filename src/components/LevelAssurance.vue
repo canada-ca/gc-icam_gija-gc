@@ -28,6 +28,7 @@
 <script>
 import PopoverButton from "./UI/PopoverButton.vue";
 export default {
+  emits: ["detail"],
   components: {
     PopoverButton
   },
@@ -86,7 +87,11 @@ export default {
   },
   methods: {
     showDetail() {
-      this.$emit("detail", this.levelOfAssurance.detail);
+      this.$emit(
+        "detail",
+        this.levelOfAssurance.title,
+        this.levelOfAssurance.detail
+      );
     }
   }
 };

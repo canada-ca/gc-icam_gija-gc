@@ -66,7 +66,7 @@
               </div>
               <div class="col-3">
                 <federation-card />
-                <level-assurance />
+                <level-assurance @detail="getDetail" />
               </div>
               <div class="col-4">
                 <access-management-card />
@@ -109,66 +109,25 @@ export default {
     ResourceConsumersCard,
     CredentialManagementCard,
     LevelAssurance,
-    ModalCard,
+    ModalCard
   },
-  computed: {
-    modalHead() {
-      return "Level of Assurance";
-    },
+  methods: {
+    getDetail(modalHead, modalBody) {
+      this.modalHead = modalHead;
+      this.modalBody = modalBody;
+    }
   },
   data() {
     return {
-      modalBody: `<p>
-            There are four Levels of Assurance (LoAs) ranging from LoA 1 (the
-            lowest level) to LoA 4 (the highest level) associated with identity,
-            credentials and authentication as defined in the following GC policy
-            instruments and guidance documents:
-          </p>
-          <ul>
-            <li>
-              <a
-                href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32612&section=html"
-                target="_blank"
-              >
-                Directive on Identity Management - Appendix A: Standard on
-                Identity and Credential Assurance
-              </a>
-              which defines the four assurance levels associated with identity
-              assurance and credential assurance
-            </li>
-            <li>
-              <a
-                href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26262&section=html"
-                target="_blank"
-                >Guideline on Defining Authentication Requirements</a
-              >, which describes a methodology for determining the minimum
-              assurance level needed for user authentication in a given context
-            </li>
-            <li>
-              <a
-                href="https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678&section=html"
-                target="_blank"
-                >Guideline on Identity Assurance</a
-              >, which specifies the minimum requirements to establish the
-              identity of an individual for a given level of assurance
-            </li>
-            <li>
-              <a
-                href="https://www.cyber.gc.ca/en/guidance/user-authentication-guidance-information-technology-systems-itsp30031-v3"
-                target="_blank"
-                >User Authentication Guidance for Information Technology
-                Systems</a
-              >, which provides technical guidance on user authentication
-              requirements at each level of assurance.
-            </li>
-          </ul>`,
+      modalHead: "",
+      modalBody: ""
     };
   },
   mounted() {
     Array.from(document.querySelectorAll('[data-bs-toggle="popover"]')).forEach(
       (popoverNode) => new Popover(popoverNode)
     );
-  },
+  }
 };
 </script>
 
