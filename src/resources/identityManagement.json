@@ -1,36 +1,43 @@
 [{
         "id": "identity-establishment",
         "title": "Identity Establishment",
-        "description": "the creation of an authoritative record of identity that is relied on by others for subsequent government activities"
+        "description": "the creation of an authoritative record of identity that is relied on by others for subsequent government activities",
+        "detail": "<p> An identity attribute is a property or characteristic associated with an identifiable entity (e.g., an individual, device or business). A collection or set of identity attributes that is sufficient to distinguish one entity from another in a given context is referred to as an identity record (or identity information). The creation of an authoritative record of identity that is relied on by others for subsequent government activities, programs and services is referred to as identity establishment. This set of attributes is sometimes referred to as “core identity attributes”. Other identity attribute categories include contact attributes (e.g., address, phone number, email address), authorization attributes (i.e., privileges or entitlements - see Section 3.1.1.4 in document) and auxiliary attributes (e.g., language preference - see Section 3.1.1.9 in document).</p> <p>Note that identity attributes can be retrieved from one or more Authoritative Sources (see Sections 3.1.1.6 and 3.2.3 in document).</p>"
     },
     {
         "id": "entitlements-and",
         "title": "Entitlements and Roles",
-        "description": "the set of privileges or entitlements associated with an entity that support informed access control decisions"
+        "description": "the set of privileges or entitlements associated with an entity that support informed access control decisions",
+        "detail": "<p>Once a core identity has been established, the set of privileges or entitlements associated with that entity need to be established in order to support informed access control decisions. The privileges may be specified as individual authorization attributes and/or they can be associated with a specific role (e.g., a system administrator is permitted to perform specific functions associated with that role). These authorization attributes may be added to an identity record or may be stored and retrieved separately from one or more Authoritative Sources. </p>"
     },
     {
         "id": "identity-lifecycle",
         "title": "Identity Lifecycle Management",
-        "description": "the provisioning, ongoing maintenance and de-provisioning of identity attributes"
+        "description": "the provisioning, ongoing maintenance and de-provisioning of identity attributes",
+        "detail": "<p>Once the various attributes associated with a digital identity have been established, they must be managed over time. Management of the lifecycle of digital identities consists of:</p> <ul> <li> Provisioning: creation of identity attributes associated with the digital identity. </li><li>Maintenance: maintain accurate and up-to-date attributes in an identity record13 over its lifecycle. </li><li>De-provisioning: deactivate or remove identity attributes or identity records as required. </li></ul>"
     },
     {
         "id": "authoritative-attribute",
         "title": "Authoritative Attribute Exchange Service",
-        "description": "a broker between multiple, disparate Authoritative Sources and the consumers of the identity information"
+        "description": "a broker between multiple, disparate Authoritative Sources and the consumers of the identity information",
+        "detail": "<p>The Authoritative Attribute Exchange Service (AAES) serves as a broker between multiple, disparate Authoritative Sources and the consumers of the identity information, thus serving as a  consolidated identity repository.  The AAES is comprised of an Authoritative Attribute Manager which retrieves, correlates and consolidates identity attributes from multiple authoritative sources and an Authoritative Attribute Distributor which provides a single access point for consumers to retrieve the identity attributes.  The AAES may be implemented as a virtual directory or it may be implemented as a meta-directory with local identity attribute storage.The identity attributes may be consumed directly by applications/services; and the AAES can help to populate other downstream identity repositories where required. </p><p> In association with the appropriate workflows, the AAES may also support other functions such as Master Data Management14  and automated account provisioning/de-provisioning. </p>"
     },
     {
         "id": "identity-repositories",
         "title": "Identity Repositories",
-        "description": "any data repository that stores identity information"
+        "description": "any data repository that stores identity information",
+        "detail": "<p>Simply put, an identity repository is any data repository that stores identity information.  This could be an HR database, a centralized identity attribute store that collects identity information from multiple authoritative sources (as discussed under Section 3.1.1.6 in the document), or a separate dedicated directory component such as Active Directory.</p>"
     },
     {
         "id": "delegated-administration",
         "title": "Delegated Administration",
-        "description": "the de-centralization of certain system administration functions"
+        "description": "the de-centralization of certain system administration functions",
+        "detail": "<p> In the context of IT, delegated administration allows for the de-centralization of certain administrative functions.  Essentially, someone in an administrator role (e.g., a system administrator) can assign a subset of less critical administrative functions to someone else, typically someone that is better suited to carry out the task(s).  For example, an administrator could assign responsibility for managing the profiles of a group of employees to their supervisor.  Delegated administration can also be used to facilitate delegation of authority (i.e., a manager with a certain set of authorities could assign a subset or all of those authorities to others).  This results in greater efficiencies, reduces the workload on the system administrators, supports business continuity, and is key to scalability in a large organization such as the GC. </p>"
     },
     {
         "id": "user-self",
         "title": "User Self-Service",
-        "description": "the ability to allow users to specify or change certain identity attributes"
+        "description": "the ability to allow users to specify or change certain identity attributes",
+        "detail": "<p> In a large enterprise ICAM system, self-service is an important capability to aid in handling scale. For non-authoritative identity attributes such as user preferences (e.g., language preference), a self-service model can meet the requirements without the need to verify the accuracy of the attributes. For authoritative identity attributes (e.g., name, employee id, department) that may be used for access control decisions, a mechanism for confirming correctness of the identity attribute changed via self-service is needed. Self-service also permits users to request new entitlements or roles which are subject to approval by an authorized agent (which may be supported by approval workflows as discussed in Section 3.2.2.3 within the document).</p>"
     }
 ]
