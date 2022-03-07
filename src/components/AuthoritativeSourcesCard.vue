@@ -1,10 +1,5 @@
 <template>
   <base-card class="authoritative">
-    <img
-      src="assets/arrowSmall.png"
-      alt="Arrow"
-      style="margin-left: -12rem; width: 3rem"
-    />
     <card-title
       ><router-link to="/authoritative-sources"
         >Authoritative Sources</router-link

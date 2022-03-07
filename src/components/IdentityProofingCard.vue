@@ -36,7 +36,7 @@ export default {
 }
 #identity-proofing {
   width: 12rem;
-  margin: 12rem 0.5rem 2rem;
+  margin: 13rem 0.5rem 2rem;
   transform-origin: 0 0;
   transform: rotate(-90deg);
 }

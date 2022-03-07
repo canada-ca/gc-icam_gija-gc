@@ -47,17 +47,15 @@
         <div class="row">
           <div class="col-2">
             <div class="linkLine" />
-            <authoritative-sources-card />
-            <img
-              src="assets/arrowSmall.png"
-              alt="Arrow"
-              style="
-                margin-left: -12rem;
-                margin-top: -35rem;
-                width: 3rem;
-                height: 1rem;
-              "
-            />
+            <div class="row">
+              <div class="col-1 mt-3 gx-0 gy-5">
+                <fa icon="right-long"></fa>
+                <fa icon="right-long" class="longMargin"></fa>
+              </div>
+              <div class="col-11">
+                <authoritative-sources-card />
+              </div>
+            </div>
           </div>
           <div class="col-8">
             <div class="row">
@@ -136,5 +134,8 @@ export default {
   margin: 1rem -1rem;
   border: dotted 0.1rem black;
   height: 0rem;
+}
+.longMargin {
+  margin-top: 20rem;
 }
 </style>
