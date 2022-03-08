@@ -5,17 +5,17 @@
       <fa icon="left-long"></fa>
     </div>
     <div class="col-10">
-      <popover-button
-        id="levels"
-        :description="levelOfAssurance.description"
-        :title="levelOfAssurance.title"
-        ><a
-          type="button"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-          @click="showDetail"
-          >Levels of Assurance</a
-        ></popover-button
+      <a
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        @click="showDetail"
+        ><popover-button
+          id="levels"
+          :description="levelOfAssurance.description"
+          :title="levelOfAssurance.title"
+          >Levels of Assurance</popover-button
+        ></a
       >
     </div>
     <div class="col-1 gx-0 gy-4 text-end">
