@@ -7,35 +7,16 @@
     <div class="row">
       <div class="col-2">
         <div class="row">
-          <div class="col-6">
+          <div class="col-7">
             <resource-consumers-card />
           </div>
-          <div class="col-2">
-            <img
-              src="assets/arrowSmall.png"
-              alt="Arrow"
-              style="margin-top: 7rem; width: 3rem"
-            />
-            <img
-              src="assets/arrowCross.png"
-              alt="Arrow"
-              style="margin-top: 5rem; margin-left: -2rem; width: 5rem"
-            />
-            <img
-              src="assets/arrowSmall.png"
-              alt="Arrow"
-              style="margin-top: 9rem; width: 3rem"
-            />
-            <img
-              src="assets/arrowSmall.png"
-              alt="Arrow"
-              style="margin-top: 7rem; width: 3rem"
-            />
-            <img
-              src="assets/arrowSmall.png"
-              alt="Arrow"
-              style="margin-top: 7rem; width: 3rem"
-            />
+          <div class="col-1 gx-0">
+            <fa icon="right-long" class="mediumMargin"></fa>
+            <fa icon="right-long" class="shortMargin"></fa>
+            <fa icon="right-long" class="shorterMargin"></fa>
+            <fa icon="right-long" class="mediumMargin"></fa>
+            <fa icon="right-long" class="mediumMargin"></fa>
+            <fa icon="right-long" class="mediumMargin"></fa>
           </div>
           <div class="col-4">
             <identity-proofing-card />
@@ -137,5 +118,14 @@ export default {
 }
 .longMargin {
   margin-top: 20rem;
+}
+.mediumMargin {
+  margin-top: 7rem;
+}
+.shortMargin {
+  margin-top: 5rem;
+}
+.shorterMargin {
+  margin-top: 3rem;
 }
 </style>
