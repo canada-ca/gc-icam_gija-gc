@@ -35,7 +35,7 @@
         "iconImg": "assets/robots.png",
         "iconAlt": "AI/Robots",
         "title": "AI/Robots",
-        "description": "advanced technologies that can act on behalf of a user or embedded in a device or application",
+        "description": "advanced technologies that can act on behalf of a user or are embedded in a device or application",
         "detail": "<p>Artificial Intelligence (AI) and robots are emerging technologies that are already influencing digital service delivery and are expected to play a significant role in the future.  AI/robots can be implemented in various forms including as autonomous entities, acting on behalf of a user (and therefore appear to be that user), or embedded in a device or application.</p>"
     }
 ]
