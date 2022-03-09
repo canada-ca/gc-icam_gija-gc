@@ -5,26 +5,25 @@
         >Authoritative Sources</router-link
       ></card-title
     >
-    <popover-button
+    <combined-button
       v-for="authoritativeSource in authoritativeSources"
-      :description="authoritativeSource.description"
-      :title="authoritativeSource.title"
+      :buttonInfo="authoritativeSource"
       :key="authoritativeSource.id"
+      @click="this.$parent.showDetail(authoritativeSource)"
     >
-      {{ authoritativeSource.title }}
-    </popover-button>
+    </combined-button>
   </base-card>
 </template>
 
 <script>
 import BaseCard from "./UI/BaseCard.vue";
-import PopoverButton from "./UI/PopoverButton.vue";
+import CombinedButton from "./UI/CombinedButton.vue";
 import CardTitle from "./UI/BaseCardTitle.vue";
 import authoritativeSources from "../resources/authoritativeSources.json";
 export default {
   components: {
     BaseCard,
-    PopoverButton,
+    CombinedButton,
     CardTitle
   },
   data() {
