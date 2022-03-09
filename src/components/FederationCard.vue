@@ -3,26 +3,25 @@
     <card-title
       ><router-link to="/federation">Federation</router-link></card-title
     >
-    <popover-button
+    <combined-button
       v-for="federation in federations"
-      :description="federation.description"
-      :title="federation.title"
+      :buttonInfo="federation"
       :key="federation.id"
+      @click="this.$parent.showDetail(federation)"
     >
-      {{ federation.title }}
-    </popover-button>
+    </combined-button>
   </base-card>
 </template>
 
 <script>
 import BaseCard from "./UI/BaseCard.vue";
-import PopoverButton from "./UI/PopoverButton.vue";
+import CombinedButton from "./UI/CombinedButton.vue";
 import CardTitle from "./UI/BaseCardTitle.vue";
 import federation from "../resources/federation.json";
 export default {
   components: {
     BaseCard,
-    PopoverButton,
+    CombinedButton,
     CardTitle
   },
   data() {
