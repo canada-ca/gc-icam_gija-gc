@@ -13,7 +13,7 @@
     {
         "id": "international-sources",
         "title": "International Sources",
-        "description": "sources of identity information for non-Canadian citizens",
+        "description": "sources of identity information primarily for non-Canadian citizens and, in some cases,  Canadian citizens as well",
         "detail": "<p>Identity information on non-citizens will need to come from trusted non-Canadian sources. GC organizations have relationships with foreign entities and need trusted sources for identity information before allowing access to GC resources. Examples of trusted international sources might be passports from trusted partner nations and attestations from trusted foreign organizations (e.g., in the defence or law enforcement realm).</p>"
     },
     {
@@ -31,7 +31,7 @@
     {
         "id": "other-sources",
         "title": "Other Sources",
-        "description": "sources of information for external users and businesses",
+        "description": "sources of information that do not fall under one of the other categories",
         "detail": "<p>There are many other identity sources that may play a role in providing identity attributes. Some examples are:<ul><li>Learning management systems, which are a source of proof of educational credential that may be a pre-requisite to access a certain resource or do a certain job.</li><li>Behavioural, possibly AI-based, systems which keep track of a user's typical patterns of usage and behaviour to identify anomalous access patterns that may be associated with an imposter.</li><li>Privileged access management repositories</li><li>Social media or crowd-sourced identity (likely weak level of assurance)</li><li>Entitlements and policy rules repositories</li><li>Activity logs</li><li>Risk-based rules repositories</li><li>Attributes stored in PKI certificates (likely high level of assurance)</li><li>Platform-specific repositories (e.g., OS/400)</li></ul></p>"
     }
 ]
