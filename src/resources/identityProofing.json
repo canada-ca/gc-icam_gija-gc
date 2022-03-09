@@ -7,7 +7,7 @@
     {
         "id": "sponsorship",
         "title": "Sponsorship",
-        "description": "to formally establish that an organization or Non-Person Entities (NPE) entity requires access to GC resources",
+        "description": "to formally establish that an organization or Non-Person Entity (NPE) requires access to GC resources",
         "detail": "<p> Sponsorship is required to formally establish that an organization or Non-Person Entities (NPE) entity requires access to GC resources. The authorized sponsor becomes responsible for managing the lifecycle of these relationships over time. </p>"
     }
 ]
