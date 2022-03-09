@@ -94,6 +94,10 @@ export default {
     getDetail(modalHead, modalBody) {
       this.modalHead = modalHead;
       this.modalBody = modalBody;
+    },
+    showDetail(info) {
+      this.modalHead = info.title;
+      this.modalBody = info.detail;
     }
   },
   data() {
