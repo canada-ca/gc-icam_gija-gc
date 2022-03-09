@@ -5,26 +5,26 @@
         >Identity <br />Management</router-link
       ></card-title
     >
-    <popover-button
+    <combined-button
       v-for="identityManagement in identityManagements"
-      :description="identityManagement.description"
-      :title="identityManagement.title"
+      :buttonInfo="identityManagement"
       :key="identityManagement.id"
+      @click="this.$parent.showDetail(identityManagement)"
     >
       {{ identityManagement.title }}
-    </popover-button>
+    </combined-button>
   </base-card>
 </template>
 
 <script>
 import BaseCard from "./UI/BaseCard.vue";
 import CardTitle from "./UI/BaseCardTitle.vue";
-import PopoverButton from "./UI/PopoverButton.vue";
+import CombinedButton from "./UI/CombinedButton.vue";
 import identityManagements from "../resources/identityManagement.json";
 export default {
   components: {
     BaseCard,
-    PopoverButton,
+    CombinedButton,
     CardTitle
   },
   data() {
