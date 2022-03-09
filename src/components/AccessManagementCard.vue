@@ -5,34 +5,33 @@
         >Access <br />Management</router-link
       ></card-title
     >
-    <popover-button
+    <combined-button
       v-for="accessManagement in accessManagements"
-      :description="accessManagement.description"
-      :title="accessManagement.title"
+      :buttonInfo="accessManagement"
       :key="accessManagement.id"
+      @click="this.$parent.showDetail(accessManagement)"
     >
-      {{ accessManagement.title }}
-    </popover-button>
+    </combined-button>
   </base-card>
 </template>
 
 <script>
 import BaseCard from "./UI/BaseCard.vue";
-import PopoverButton from "./UI/PopoverButton.vue";
+import CombinedButton from "./UI/CombinedButton.vue";
 import CardTitle from "./UI/BaseCardTitle.vue";
 import accessManagement from "../resources/accessManagement.json";
 
 export default {
   components: {
     BaseCard,
-    PopoverButton,
-    CardTitle,
+    CombinedButton,
+    CardTitle
   },
   data() {
     return {
-      accessManagements: accessManagement,
+      accessManagements: accessManagement
     };
-  },
+  }
 };
 </script>
 
