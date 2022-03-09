@@ -11,7 +11,6 @@
       :key="identityManagement.id"
       @click="this.$parent.showDetail(identityManagement)"
     >
-      {{ identityManagement.title }}
     </combined-button>
   </base-card>
 </template>

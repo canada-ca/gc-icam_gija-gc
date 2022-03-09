@@ -15,7 +15,6 @@
           :buttonInfo="governanceSystem"
           @click="this.$parent.showDetail(governanceSystem)"
         >
-          {{ governanceSystem.title }}
         </combined-button>
       </div>
     </div>
