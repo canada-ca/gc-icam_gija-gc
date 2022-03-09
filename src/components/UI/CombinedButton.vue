@@ -17,3 +17,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+a {
+  width: 90%;
+}
+</style>

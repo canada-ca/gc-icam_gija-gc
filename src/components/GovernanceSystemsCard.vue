@@ -5,18 +5,18 @@
         >Governance Systems and Processes</router-link
       ></base-card-title
     >
-    <div class="row">
+    <div class="row gx-0">
       <div
         class="col"
         v-for="governanceSystem in governanceSystems"
         :key="governanceSystem.id"
       >
-        <popover-button
-          :description="governanceSystem.description"
-          :title="governanceSystem.title"
+        <combined-button
+          :buttonInfo="governanceSystem"
+          @click="this.$parent.showDetail(governanceSystem)"
         >
           {{ governanceSystem.title }}
-        </popover-button>
+        </combined-button>
       </div>
     </div>
   </base-card>
@@ -25,12 +25,12 @@
 <script>
 import BaseCard from "./UI/BaseCard.vue";
 import BaseCardTitle from "./UI/BaseCardTitle.vue";
-import PopoverButton from "./UI/PopoverButton.vue";
+import CombinedButton from "./UI/CombinedButton.vue";
 import governanceSystems from "../resources/governanceSystems.json";
 
 export default {
   components: {
-    PopoverButton,
+    CombinedButton,
     BaseCardTitle,
     BaseCard
   },
