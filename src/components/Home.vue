@@ -117,7 +117,7 @@ export default {
 <style scoped>
 .linkLine {
   margin: 1rem -1rem;
-  border: dotted 0.1rem black;
+  border-top: dotted 0.2rem black;
   height: 0rem;
 }
 .longMargin {
