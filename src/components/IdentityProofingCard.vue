@@ -1,26 +1,25 @@
 <template>
   <vertical-card class="identityProofing">
-    <popover-button
+    <combined-button
       v-for="identityProofing in identityProofings"
       :id="identityProofing.id"
-      :description="identityProofing.description"
-      :title="identityProofing.title"
+      :buttonInfo="identityProofing"
       :key="identityProofing.id"
+      @click="this.$parent.showDetail(identityProofing)"
     >
-      {{ identityProofing.title }}
-    </popover-button>
+    </combined-button>
   </vertical-card>
 </template>
 
 <script>
 import VerticalCard from "./UI/VerticalCard.vue";
-import PopoverButton from "./UI/PopoverButton.vue";
+import CombinedButton from "./UI/CombinedButton.vue";
 import identityProofing from "../resources/identityProofing.json";
 
 export default {
   components: {
     VerticalCard,
-    PopoverButton
+    CombinedButton
   },
   data() {
     return {
@@ -35,14 +34,14 @@ export default {
   background-color: #c00000;
 }
 #identity-proofing {
-  width: 12rem;
-  margin: 13rem 0.5rem 2rem;
+  width: 14rem;
+  margin-top: 14rem;
   transform-origin: 0 0;
   transform: rotate(-90deg);
 }
 #sponsorship {
   width: 30rem;
-  margin: 27rem 0.5rem 2rem;
+  margin-top: 26rem;
   transform-origin: 0 0;
   transform: rotate(-90deg);
 }
