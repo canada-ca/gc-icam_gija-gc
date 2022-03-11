@@ -5,19 +5,27 @@
         >Resource <br />Consumers</router-link
       >
     </h5>
-    <popover-button
-      v-for="resourceConsumer in resourceConsumers"
-      :description="resourceConsumer.description"
-      :title="resourceConsumer.title"
-      :key="resourceConsumer.id"
+    <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+      ><popover-button
+        v-for="resourceConsumer in resourceConsumers"
+        :description="resourceConsumer.description"
+        :title="resourceConsumer.title"
+        :key="resourceConsumer.id"
+        @click="
+          this.$parent.getDetail(
+            resourceConsumer.title,
+            resourceConsumer.detail
+          )
+        "
+      >
+        <icon-button
+          :srcUrl="resourceConsumer.iconImg"
+          :srcAlt="resourceConsumer.iconAlt"
+          :class="resourceConsumer.id === 'devices' ? 'wider' : ''"
+        />
+        {{ resourceConsumer.title }}
+      </popover-button></a
     >
-      <icon-button
-        :srcUrl="resourceConsumer.iconImg"
-        :srcAlt="resourceConsumer.iconAlt"
-        :class="resourceConsumer.id === 'devices' ? 'wider' : ''"
-      />
-      {{ resourceConsumer.title }}
-    </popover-button>
   </div>
 </template>
 
