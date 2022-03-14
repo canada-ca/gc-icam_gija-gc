@@ -3,6 +3,11 @@
     <div class="alert alert-primary" role="alert">
       <fa icon="circle-exclamation"></fa> Click title to see details, mouse over
       buttons to see description.
+      <a
+        href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
+        target="_blank"
+        >Download PPT</a
+      >
     </div>
     <div class="row">
       <div class="col-2">
