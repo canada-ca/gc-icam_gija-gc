@@ -9,6 +9,15 @@
         >Download PPT</a
       >
     </div>
+    <div class="nav justify-content-end">
+      <a
+        href="#"
+        title="Français  - Version française de cette page"
+        lang="fr"
+        class=""
+        >Français</a
+      >
+    </div>
     <div class="row">
       <div class="col-2">
         <div class="row">
