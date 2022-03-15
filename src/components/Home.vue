@@ -1,20 +1,17 @@
 <template>
   <div class="container-fluid">
     <div class="alert alert-primary" role="alert">
-      <fa icon="circle-exclamation"></fa> Click title to see details, mouse over
-      buttons to see description.
+      <fa icon="circle-exclamation"></fa> {{ $t("message") }}
       <a
         href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
         target="_blank"
         >Download PPT</a
       >
-    </div>
-    <div class="nav justify-content-end">
       <a
         href="#"
         title="Français  - Version française de cette page"
         lang="fr"
-        class=""
+        class="nav justify-content-end"
         >Français</a
       >
     </div>
