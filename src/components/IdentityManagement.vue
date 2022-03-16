@@ -1,5 +1,9 @@
 <template>
-  <description :header="header" :mode="identity" :items="identityManagements" />
+  <description
+    :header="$t('identityManagement')"
+    :mode="identity"
+    :items="identityManagements"
+  />
 </template>
 
 <script>
@@ -13,7 +17,6 @@ export default {
   },
   data() {
     return {
-      header: "Identity Management",
       identity: "identity",
       identityManagements: [...identityProofing, ...identityManagement]
     };
