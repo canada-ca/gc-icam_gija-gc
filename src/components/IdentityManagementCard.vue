@@ -1,9 +1,9 @@
 <template>
   <base-card class="identity">
     <card-title
-      ><router-link to="/identity-management"
-        >Identity <br />Management</router-link
-      ></card-title
+      ><router-link to="/identity-management">{{
+        $t("identityManagement")
+      }}</router-link></card-title
     >
     <combined-button
       v-for="identityManagement in identityManagements"
