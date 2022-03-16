@@ -1,19 +1,24 @@
 <template>
   <div class="container-fluid">
-    <div class="alert alert-primary" role="alert">
-      <fa icon="circle-exclamation"></fa> {{ $t("message") }}
-      <a
-        href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
-        target="_blank"
-        >Download PPT</a
-      >
-      <a
-        href="#"
-        title="Français  - Version française de cette page"
-        lang="fr"
-        class="nav justify-content-end"
-        >Français</a
-      >
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="alert alert-primary col-10" role="alert">
+        <fa icon="circle-exclamation"></fa> {{ $t("message") }}<br />
+        <a
+          href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
+          target="_blank"
+          >Download embeddable graphics package here.</a
+        >
+      </div>
+      <div class="col-1 mt-3">
+        <a
+          href="#"
+          title="Français  - Version française de cette page"
+          lang="fr"
+          @click="toggleLang"
+          >{{ computedLang }}</a
+        >
+      </div>
     </div>
     <div class="row">
       <div class="col-2">
@@ -109,6 +114,18 @@ export default {
     showDetail(info) {
       this.modalHead = info.title;
       this.modalBody = info.detail;
+    },
+    toggleLang() {
+      if (this.$i18n.locale == "fr") {
+        this.$i18n.locale = "en";
+      } else {
+        this.$i18n.locale = "fr";
+      }
+    }
+  },
+  computed: {
+    computedLang() {
+      return this.$i18n.locale == "fr" ? "English" : "Français";
     }
   },
   data() {
