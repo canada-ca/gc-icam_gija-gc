@@ -16,6 +16,8 @@ import ProtectedResources from './components/ProtectedResources.vue'
 import CredentialManagement from './components/CredentialManagement.vue'
 import Home from './components/Home.vue'
 import { createI18n } from 'vue-i18n'
+import en from './plugins/en.json'
+import fr from './plugins/fr.json'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
@@ -66,9 +68,8 @@ const i18n = createI18n({
   locale: "en",
   fallbackLocale: "en",
   messages: {
-    "en": {
-      "message": "Click title to see details, mouse over buttons to see description."
-    }
+    en,
+    fr
   }
 })
 const app = createApp(App)
