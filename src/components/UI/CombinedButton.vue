@@ -2,7 +2,7 @@
   <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
     ><popover-button
       :description="buttonInfo.description"
-      :title="computedTitle"
+      :title="computedTitle()"
       >{{ buttonInfo.title }}</popover-button
     ></a
   >
@@ -15,7 +15,7 @@ export default {
   components: {
     PopoverButton
   },
-  computed: {
+  methods: {
     computedTitle() {
       return this.buttonInfo.title[this.$i18n.locale];
     }
