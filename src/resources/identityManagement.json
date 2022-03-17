@@ -6,11 +6,11 @@
         },
         "description": {
             "en": "the creation of an authoritative record of identity that is relied on by others for subsequent government activities",
-            "fr": ""
+            "fr": "Établissement de l'identité"
         },
         "detail": {
             "en": "<p> An identity attribute is a property or characteristic associated with an identifiable entity (e.g., an individual, device or business). A collection or set of identity attributes that is sufficient to distinguish one entity from another in a given context is referred to as an identity record (or identity information). The creation of an authoritative record of identity that is relied on by others for subsequent government activities, programs and services is referred to as identity establishment. This set of attributes is sometimes referred to as “core identity attributes”. Other identity attribute categories include contact attributes (e.g., address, phone number, email address), authorization attributes (i.e., privileges or entitlements - see Section 3.1.1.4 in document) and auxiliary attributes (e.g., language preference - see Section 3.1.1.9 in document).</p> <p>Note that identity attributes can be retrieved from one or more Authoritative Sources (see Sections 3.1.1.6 and 3.2.3 in document).</p>",
-            "fr": ""
+            "fr": "<p>Établissement de l'identité</p>"
         }
     },
     {
