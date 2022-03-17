@@ -12,8 +12,8 @@
         @click="showDetail"
         ><popover-button
           id="levels"
-          :description="levelOfAssurance.description"
-          :title="levelOfAssurance.title"
+          :description="levelOfAssurance[0].description[this.$i18n.locale]"
+          :title="levelOfAssurance[0].title[this.$i18n.locale]"
           >Levels of Assurance</popover-button
         ></a
       >
@@ -45,6 +45,12 @@ export default {
         this.levelOfAssurance.title,
         this.levelOfAssurance.detail
       );
+    }
+  },
+  computed: {
+    getDescription() {
+      console.log(this.levelOfAssurance);
+      return this.levelOfAssurance[0].description[this.$i18n.locale];
     }
   }
 };
