@@ -14,7 +14,7 @@
           id="levels"
           :description="levelOfAssurance[0].description[this.$i18n.locale]"
           :title="levelOfAssurance[0].title[this.$i18n.locale]"
-          >Levels of Assurance</popover-button
+          >{{ levelOfAssurance[0].title[this.$i18n.locale] }}</popover-button
         ></a
       >
     </div>
@@ -42,8 +42,8 @@ export default {
     showDetail() {
       this.$emit(
         "detail",
-        this.levelOfAssurance.title,
-        this.levelOfAssurance.detail
+        this.levelOfAssurance[0].title[this.$i18n.locale],
+        this.levelOfAssurance[0].detail[this.$i18n.locale]
       );
     }
   },
