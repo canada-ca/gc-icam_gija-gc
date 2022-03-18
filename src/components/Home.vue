@@ -121,6 +121,15 @@ export default {
       } else {
         this.$i18n.locale = "fr";
       }
+      this.reloadPopover();
+    },
+    reloadPopover() {
+      Array.from(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      ).forEach((popoverNode) => {
+        Popover.getInstance(popoverNode)?.dispose();
+        return new Popover(popoverNode);
+      });
     }
   },
   computed: {
@@ -135,9 +144,7 @@ export default {
     };
   },
   mounted() {
-    Array.from(document.querySelectorAll('[data-bs-toggle="popover"]')).forEach(
-      (popoverNode) => new Popover(popoverNode)
-    );
+    this.reloadPopover();
   }
 };
 </script>
