@@ -11,7 +11,6 @@
         data-bs-target="#exampleModal"
         @click="showDetail"
         ><popover-button
-          id="levels"
           :description="levelOfAssurance[0].description[this.$i18n.locale]"
           :title="levelOfAssurance[0].title[this.$i18n.locale]"
           >{{ levelOfAssurance[0].title[this.$i18n.locale] }}</popover-button
@@ -49,7 +48,7 @@ export default {
   },
   computed: {
     getDescription() {
-      console.log(this.levelOfAssurance);
+      console.log(this.levelOfAssurance[0].description[this.$i18n.locale]);
       return this.levelOfAssurance[0].description[this.$i18n.locale];
     }
   }
