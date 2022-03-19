@@ -10,11 +10,9 @@
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
         @click="showDetail"
-        ><popover-button
-          :description="levelOfAssurance[0].description[this.$i18n.locale]"
-          :title="levelOfAssurance[0].title[this.$i18n.locale]"
-          >{{ levelOfAssurance[0].title[this.$i18n.locale] }}</popover-button
-        ></a
+        ><popover-button :description="getDescription" :title="getTitle">{{
+          getTitle
+        }}</popover-button></a
       >
     </div>
     <div class="col-1 gx-0 gy-4 text-end">
@@ -48,8 +46,10 @@ export default {
   },
   computed: {
     getDescription() {
-      console.log(this.levelOfAssurance[0].description[this.$i18n.locale]);
       return this.levelOfAssurance[0].description[this.$i18n.locale];
+    },
+    getTitle() {
+      return this.levelOfAssurance[0].title[this.$i18n.locale];
     }
   }
 };
