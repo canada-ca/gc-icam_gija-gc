@@ -121,7 +121,6 @@ export default {
       } else {
         this.$i18n.locale = "fr";
       }
-      this.reloadPopover();
     },
     reloadPopover() {
       Array.from(
@@ -144,6 +143,9 @@ export default {
     };
   },
   mounted() {
+    this.reloadPopover();
+  },
+  updated() {
     this.reloadPopover();
   }
 };
