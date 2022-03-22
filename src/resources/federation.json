@@ -1,13 +1,12 @@
-[
-    {
+[{
         "id": "centralized-authentication",
         "title": {
             "en": "Centralized Authentication / SSO Broker",
-            "fr": ""
+            "fr": "Authentification centralisée et courtier d'identification unique (IU)"
         },
         "description": {
             "en": "a component that enables organizations to connect multiple service providers with different identity providers (IdP), while also providing a single sign-on (SSO) capability on behalf of users",
-            "fr": ""
+            "fr": "un élément qui permet aux organisations de connecter plusieurs fournisseurs de services avec différents fournisseurs d'identité (IdP), tout en fournissant une capacité d'authentification unique (SSO) au nom des utilisateurs"
         },
         "detail": {
             "en": "<p>A Centralized Authentication/SSO broker component enables organizations to connect multiple service providers with different identity providers (IdP), while also providing a single sign-on (SSO) capability to end users. This facilitates the trust relationship with identity providers and simplifies how service providers can use existing trusted digital identities, rather than creating their own (the silo problem of identity). This also provides a common user interface which improves and unifies the user experience.</p><p>The GC supports external and internal centralized authentication/SSO brokers based on the Security Assertions Markup Language (SAML) and OpenID Connect protocols to enable federation with both external and internal entities. These protocols support the ability for relying parties to specify the LoAs required for the associated user authentication process. The GC deployment profiles for external federation are available on Github (see <a href=\"https://github.com/canada-ca/CATS-STAE\" target=\"_blank\"><em>CATS</em></a>) and the GC deployment profiles for internal federation are available on GCpedia (see <a href=\"https://www.gcpedia.gc.ca/wiki/GCpass_-_the_GC_Internal_Centralized_Authentication_Service_(ICAS)#Deployment_Profiles\" target=\"_blank\"><em>GCpass deployment profiles</em></a>). High-level examples of how these protocols work are provided in Appendix A.</p><p>Note that although federation allows credentials issued by a credential provider in one domain to be recognized in other domains, it is important to recognize that it may not always be possible to federate. This could be due to a number of reasons including user choice (e.g., the user does not want to use their existing credentials - such as banking credentials - to access other services), the trust framework in one domain may be incompatible with another domain, the number of domains may become unmanageable, etc. Therefore, it is essential to be able to provide a universal self-serve credential to ensure all users have access to the applications/services they need and the applications/services do not need to manage their own separate credential solutions (also preventing the need for users to re-enroll across multiple applications). To meet internal needs, the universal self-serve credential will be supported by GCpass. GCKey is the universal self-service credential for external users.</p>",
@@ -18,11 +17,11 @@
         "id": "trust-frameworks",
         "title": {
             "en": "Trust Frameworks",
-            "fr": ""
+            "fr": "Cadres de confiance"
         },
         "description": {
             "en": "a set of agreed on principles, definitions, standards, specifications, conformance criteria, and assessment approach",
-            "fr": ""
+            "fr": "un ensemble convenu de principes, de définitions, de normes, de spécifications, de critères de conformité, et d'approche en matière d'évaluation"
         },
         "detail": {
             "en": "<p>A trust framework is a set of agreed on principles, definitions, standards, specifications, conformance criteria, and assessment approach.</p><p>For the GC, the <a href=\"https://canada-ca.github.io/PCTF-CCP/Version1_3/PSP-PCTF-V-1-3-Consolidated-Overview-EN-2021-04-21.pdf\" target=\"_blank\"><em>Public Sector Profile of the Pan-Canadian Trust Framework (PCTF)</em></a> and the Canadian Federal PKI Bridge (CFPB) are both foundational trust frameworks that enable interoperability between the GC and partner organizations (such as provinces and territories) across Canada. TBS identity policies such as the <a href=\"https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=16577\" target=\"_blank\"><em>Directive on Identity Management</em></a> and the <a href=\"https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678\" target=\"_blank\"><em>Guideline on Identity Assurance</em></a> as well as the <a href=\"https://www.gcpedia.gc.ca/gcwiki/images/0/07/GC_PKI_Certificate_Policy_for_Person_Entity.pdf\" target=\"_blank\"><em>GC X.509 Public Key Infrastructure Certificate Policy for Person Entity</em></a> and the CFPB are foundational for trust within the GC (i.e. between departments).</p><p>Note that in certain lower assurance situations, digital identities that do not conform to a GC-approved trust framework may be accepted in order to, for example, improve user experience. Bring your own identity (BYOI) and social media login are examples of this and could be used in situations such as managing lower assurance requirements such as booking a campground site.</p>",
@@ -33,11 +32,11 @@
         "id": "translation-between",
         "title": {
             "en": "Translation between Parties",
-            "fr": ""
+            "fr": "Traduction entre Parties"
         },
         "description": {
             "en": "translation functions such as protocol conversion and attribute mappings to allow parties in different domains to share information appropriately and effectively",
-            "fr": ""
+            "fr": "fonctions de traduction comme la conversion de protocole et les mises en correspondance d'attributs afin de permettre aux parties dans différents domaines d'échanger des renseignements de façon appropriée et efficace"
         },
         "detail": {
             "en": "<p>In a federation involving many different organizations sharing digital identity, there is a need to perform certain translation functions to allow the parties to share information appropriately and effectively.</p><p>Features of translation include but are not limited to:<ul><li>protocol translation - to translate between different protocols (e.g., when one organization uses SAML and the other uses OIDC)</li><li>blinding, pseudonymization, anonymization - to protect privacy of individuals</li><li>attribute translation - to reconcile differences in attribute representations (e.g., when one organization formats names as lastname, firstname and the other as firstname, lastname)</li></ul></p>",
@@ -48,11 +47,11 @@
         "id": "federation-management",
         "title": {
             "en": "Federation Management",
-            "fr": ""
+            "fr": "Gestion de la fédération"
         },
         "description": {
             "en": "life cycle management of trust relationships between federated domains",
-            "fr": ""
+            "fr": "gestion du cycle de vie des relations de confiance entre les domaines fédérés"
         },
         "detail": {
             "en": "<p>This is around lifecycle management of trust between federation partners.  This would include everything from onboarding new partners to updating policies and maintaining current partner relationships to eliminating expired or non-compliant partners.</p>",

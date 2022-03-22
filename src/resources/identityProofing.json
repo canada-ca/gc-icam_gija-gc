@@ -1,13 +1,12 @@
-[
-    {
+[{
         "id": "identity-proofing",
         "title": {
             "en": "Identity Proofing",
-            "fr": ""
+            "fr": "Vérification de l'identité"
         },
         "description": {
             "en": "the function of collecting evidence [identity attributes] which supports a claim of identity [for a specific entity] and the validation and verification of that evidence so as to determine the veracity (or otherwise) of the claim",
-            "fr": ""
+            "fr": "la fonction de collecte de preuves [attributs identitaires] qui appuie une déclaration d'identité [pour une entité particulière] ainsi que la validation et la vérification de cette preuve afin de déterminer la véracité (ou autrement) de la revendication"
         },
         "detail": {
             "en": "<p>Identity is a reference or designation used to distinguish a unique and particular individual, organization, device, application, or any other applicable resource. Identity Proofing is &ldquo;the function of collecting evidence [identity attributes] which supports a claim of identity [for a specific entity] and the validation and verification of that evidence so as to determine the veracity (or otherwise) of the claim.</p> <p>The rigor of the Identity Proofing process depends on the Level of Assurance (LoA) required as described in the <a href=\"https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678\" target=\"_blank\" ><em>Guideline on Identity Assurance</em></a>. In some cases, specific identity proofing requirements are identified based on the specific program or service offered (e.g., proof of identity for a passport or a health card are published on-line)</p> <p>Identity Proofing may be performed centrally on behalf of multiple GC programs and services (e.g., personnel security screening and HR functions) or it may be performed directly by the program or service being accessed (e.g., My Service Canada Account links an otherwise anonymous credential such as GCKey to an individual using a code sent directly to that individual via a reliable delivery method such as physical mail to a pre-registered postal address).</p>",
@@ -18,11 +17,11 @@
         "id": "sponsorship",
         "title": {
             "en": "Sponsorship",
-            "fr": ""
+            "fr": "Parrainage"
         },
         "description": {
             "en": "to formally establish that an organization or Non-Person Entity (NPE) requires access to GC resources",
-            "fr": ""
+            "fr": "établir officiellement qu'une organisation ou une entité qui n'est pas une personne doit avoir accès aux ressources du GC"
         },
         "detail": {
             "en": "<p> Sponsorship is required to formally establish that an organization or Non-Person Entities (NPE) entity requires access to GC resources. The authorized sponsor becomes responsible for managing the lifecycle of these relationships over time. </p>",
