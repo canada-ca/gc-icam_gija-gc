@@ -3,12 +3,7 @@
     <div class="row">
       <div class="col-1"></div>
       <div class="alert alert-primary col-10" role="alert">
-        <fa icon="circle-exclamation"></fa> {{ $t("message") }}<br />
-        <a
-          href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
-          target="_blank"
-          >Download embeddable graphics package here.</a
-        >
+        <fa icon="circle-exclamation"></fa> {{ $t("message") }}
       </div>
       <div class="col-1 mt-3">
         <a
@@ -74,6 +69,13 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="alert alert-secondary" role="alert">
+      <a
+        href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
+        target="_blank"
+        >{{ $t("download") }}</a
+      >
     </div>
     <modal-card :modalHead="modalHead" :modalBody="modalBody" />
   </div>
