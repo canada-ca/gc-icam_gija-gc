@@ -112,8 +112,8 @@ export default {
       this.modalBody = modalBody;
     },
     showDetail(info) {
-      this.modalHead = info.title;
-      this.modalBody = info.detail;
+      this.modalHead = info.title[this.$i18n.locale];
+      this.modalBody = info.detail[this.$i18n.locale];
     },
     toggleLang() {
       if (this.$i18n.locale == "fr") {
