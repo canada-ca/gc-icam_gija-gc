@@ -8,22 +8,17 @@
     <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
       ><popover-button
         v-for="resourceConsumer in resourceConsumers"
-        :description="resourceConsumer.description"
-        :title="resourceConsumer.title"
+        :description="resourceConsumer.description[this.$i18n.locale]"
+        :title="resourceConsumer.title[this.$i18n.locale]"
         :key="resourceConsumer.id"
-        @click="
-          this.$parent.getDetail(
-            resourceConsumer.title,
-            resourceConsumer.detail
-          )
-        "
+        @click="this.$parent.showDetail(resourceConsumer)"
       >
         <icon-button
           :srcUrl="resourceConsumer.iconImg"
           :srcAlt="resourceConsumer.iconAlt"
           :class="resourceConsumer.id === 'devices' ? 'wider' : ''"
         />
-        {{ resourceConsumer.title }}
+        {{ resourceConsumer.title[this.$i18n.locale] }}
       </popover-button></a
     >
   </div>
