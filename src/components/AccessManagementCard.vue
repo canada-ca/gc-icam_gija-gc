@@ -1,9 +1,9 @@
 <template>
   <base-card class="access">
     <card-title
-      ><router-link to="/access-management"
-        >Access <br />Management</router-link
-      ></card-title
+      ><router-link to="/access-management">{{
+        $t("accessManagement")
+      }}</router-link></card-title
     >
     <combined-button
       v-for="accessManagement in accessManagements"
