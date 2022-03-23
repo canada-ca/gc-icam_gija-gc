@@ -56,7 +56,7 @@
               </div>
               <div class="col-3">
                 <federation-card />
-                <level-assurance @detail="getDetail" />
+                <level-assurance @detail="showDetail" />
               </div>
               <div class="col-4">
                 <access-management-card />
@@ -109,10 +109,6 @@ export default {
     ModalCard
   },
   methods: {
-    getDetail(modalHead, modalBody) {
-      this.modalHead = modalHead;
-      this.modalBody = modalBody;
-    },
     showDetail(info) {
       this.modalHead = info.title[this.$i18n.locale];
       this.modalBody = info.detail[this.$i18n.locale];
