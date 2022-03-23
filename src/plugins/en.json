@@ -1,6 +1,12 @@
 {
+    "accessManagement": "Access Management",
+    "authoritativeSources": "Authoritative Sources",
+    "credentialManagement": "Credential Management",
     "download": "Download embeddable graphics package here.",
+    "federation": "Federation",
+    "governanceSystems": "Governance Systems and Processes",
     "identityManagement": "Identity Management",
     "message": "Click title to see details, mouse over buttons to see description.",
-    "protectedResources": "Protected Resources"
+    "protectedResources": "Protected Resources",
+    "resourceConsumers": "Resource Consumers"
 }
