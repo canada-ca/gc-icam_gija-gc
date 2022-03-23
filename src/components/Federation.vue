@@ -1,5 +1,9 @@
 <template>
-  <Description :header="header" :mode="federation" :items="federations" />
+  <Description
+    :header="$t('federation')"
+    :mode="federation"
+    :items="federations"
+  />
 </template>
 
 <script>
@@ -11,7 +15,6 @@ export default {
   },
   data() {
     return {
-      header: "Federation",
       federation: "federation",
       federations
     };

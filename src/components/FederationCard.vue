@@ -1,7 +1,9 @@
 <template>
   <base-card class="federation">
     <card-title
-      ><router-link to="/federation">Federation</router-link></card-title
+      ><router-link to="/federation">{{
+        $t("federation")
+      }}</router-link></card-title
     >
     <combined-button
       v-for="federation in federations"
