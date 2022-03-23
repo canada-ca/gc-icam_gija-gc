@@ -1,9 +1,9 @@
 <template>
   <base-card class="authoritative">
     <card-title
-      ><router-link to="/authoritative-sources"
-        >Authoritative Sources</router-link
-      ></card-title
+      ><router-link to="/authoritative-sources">{{
+        $t("authoritativeSources")
+      }}</router-link></card-title
     >
     <combined-button
       v-for="authoritativeSource in authoritativeSources"

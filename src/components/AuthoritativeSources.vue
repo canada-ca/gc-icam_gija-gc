@@ -1,6 +1,6 @@
 <template>
   <Description
-    :header="header"
+    :header="$t('authoritativeSources')"
     :mode="authoritative"
     :items="authoritativeSources"
   />
@@ -15,7 +15,6 @@ export default {
   },
   data() {
     return {
-      header: "Authoritative Sources",
       authoritative: "authoritative",
       authoritativeSources
     };
