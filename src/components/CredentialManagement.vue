@@ -1,6 +1,6 @@
 <template>
   <Description
-    :header="header"
+    :header="$t('credentialManagement')"
     :mode="credential"
     :items="credentialManagement"
   />
@@ -12,14 +12,13 @@ import credentialManagement from "../resources/credentialManagement.json";
 
 export default {
   components: {
-    Description,
+    Description
   },
   data() {
     return {
-      header: "Credential Management",
       credential: "credential",
-      credentialManagement: credentialManagement,
+      credentialManagement: credentialManagement
     };
-  },
+  }
 };
 </script>

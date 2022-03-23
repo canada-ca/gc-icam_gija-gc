@@ -1,9 +1,9 @@
 <template>
   <base-card class="credential container">
     <base-card-title
-      ><router-link to="/credential-management"
-        >Credential Management</router-link
-      ></base-card-title
+      ><router-link to="/credential-management">{{
+        $t("credentialManagement")
+      }}</router-link></base-card-title
     >
     <div class="row gx-0">
       <div
