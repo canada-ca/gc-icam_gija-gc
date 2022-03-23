@@ -37,11 +37,7 @@ export default {
   },
   methods: {
     showDetail() {
-      this.$emit(
-        "detail",
-        this.levelOfAssurance[0].title[this.$i18n.locale],
-        this.levelOfAssurance[0].detail[this.$i18n.locale]
-      );
+      this.$emit("detail", this.levelOfAssurance[0]);
     }
   },
   computed: {
