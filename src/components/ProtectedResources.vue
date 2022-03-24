@@ -1,6 +1,6 @@
 <template>
   <Description
-    :header="header"
+    :header="$t('protectedResources')"
     :mode="protectedResource"
     :items="protectedResources"
   />
@@ -16,7 +16,6 @@ export default {
   },
   data() {
     return {
-      header: "Protected Resources",
       protectedResource: "protectedResource",
       protectedResources
     };

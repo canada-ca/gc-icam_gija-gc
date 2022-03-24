@@ -1,9 +1,9 @@
 <template>
   <base-card class="protectedResource">
     <card-title
-      ><router-link to="/protected-resources"
-        >Protected <br />Resources</router-link
-      ></card-title
+      ><router-link to="/protected-resources">{{
+        $t("protectedResources")
+      }}</router-link></card-title
     >
     <combined-button
       v-for="protectedResource in protectedResources"
