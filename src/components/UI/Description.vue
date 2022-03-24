@@ -2,7 +2,9 @@
   <div class="container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+        <li class="breadcrumb-item">
+          <router-link to="/">{{ $t("home") }}</router-link>
+        </li>
         <li class="breadcrumb-item active" aria-current="page">
           {{ header }}
         </li>
@@ -30,9 +32,9 @@
 import DescriptionCard from "./DescriptionCard.vue";
 export default {
   components: {
-    DescriptionCard,
+    DescriptionCard
   },
-  props: ["header", "mode", "items"],
+  props: ["header", "mode", "items"]
 };
 </script>
 
