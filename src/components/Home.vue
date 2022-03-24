@@ -72,9 +72,18 @@
     </div>
     <div class="alert alert-secondary" role="alert">
       <a
+        type="button"
+        class="btn btn-primary mx-5"
         href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
         target="_blank"
         >{{ $t("download") }}</a
+      >
+      <a
+        type="button"
+        class="btn btn-primary"
+        href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
+        target="_blank"
+        >{{ $t("pdfFile") }}</a
       >
     </div>
     <modal-card :modalHead="modalHead" :modalBody="modalBody" />
