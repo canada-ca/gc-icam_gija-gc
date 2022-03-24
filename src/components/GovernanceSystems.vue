@@ -1,5 +1,9 @@
 <template>
-  <Description :header="header" :mode="governance" :items="governanceSystems" />
+  <Description
+    :header="$t('governanceSystems')"
+    :mode="governance"
+    :items="governanceSystems"
+  />
 </template>
 
 <script>
@@ -12,7 +16,6 @@ export default {
   },
   data() {
     return {
-      header: "Governance Systems",
       governance: "governance",
       governanceSystems
     };

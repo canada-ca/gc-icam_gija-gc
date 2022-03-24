@@ -1,9 +1,9 @@
 <template>
   <base-card class="governance container">
     <base-card-title
-      ><router-link to="/governance-systems"
-        >Governance Systems and Processes</router-link
-      ></base-card-title
+      ><router-link to="/governance-systems">{{
+        $t("governanceSystems")
+      }}</router-link></base-card-title
     >
     <div class="row gx-0">
       <div
