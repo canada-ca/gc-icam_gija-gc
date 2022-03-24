@@ -1,9 +1,9 @@
 <template>
   <div class="resourceConsumers">
     <h5>
-      <router-link to="/resource-consumers"
-        >Resource <br />Consumers</router-link
-      >
+      <router-link to="/resource-consumers">{{
+        $t("resourceConsumers")
+      }}</router-link>
     </h5>
     <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
       ><popover-button

@@ -1,5 +1,9 @@
 <template>
-  <Description :header="header" :mode="resource" :items="resourceConsumers" />
+  <Description
+    :header="$t('resourceConsumers')"
+    :mode="resource"
+    :items="resourceConsumers"
+  />
 </template>
 
 <script>
@@ -12,7 +16,6 @@ export default {
   },
   data() {
     return {
-      header: "Resource Consumers",
       resource: "resource",
       resourceConsumers
     };
