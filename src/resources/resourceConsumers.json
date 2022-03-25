@@ -1,0 +1,86 @@
+[{
+        "id": "users",
+        "iconImg": "assets/user.png",
+        "iconAlt": "Users",
+        "title": {
+            "en": "Users",
+            "fr": "Utilisateurs"
+        },
+        "description": {
+            "en": "internal and external consumers of GC system and information resources",
+            "fr": "consommateurs internes et externes du système du GC et des ressources d'information"
+        },
+        "detail": {
+            "en": "<p>This includes<ul><li>internal users such as:<ul><li>public servants, contractors, RCMP officers, Canadian Forces members, locally-engaged staff (e.g., embassy staff), trusted guests (e.g., interchanges from other governments)</li></ul></li><li>external users such as:<ul><li>members of the public, visitors, members of other levels of government, and members of businesses and other organizations</li></ul></li></ul></p><p>Users may be acting on their own behalf or as a proxy for others. A user may also have many roles or personas in their interactions with the GC.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "businesses-and",
+        "iconImg": "assets/business.png",
+        "iconAlt": "Businesses and Organizations",
+        "title": {
+            "en": "Businesses and Organizations",
+            "fr": "Entreprises et organismes"
+        },
+        "description": {
+            "en": "businesses and other levels of government that interact with the GC",
+            "fr": "entreprises et autres ordres de gouvernement qui interagissent avec le GC"
+        },
+        "detail": {
+            "en": "<p>This includes the commercial businesses, non-profit organizations, Indigenous self-government and all levels of government that would need to interact with the federal government for some purpose.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "devices",
+        "iconImg": "assets/devices.png",
+        "iconAlt": "Devices",
+        "title": {
+            "en": "Devices",
+            "fr": "Dispositifs"
+        },
+        "description": {
+            "en": "any device that needs to be authenticated to gain access to GC system and information resources",
+            "fr": "tout dispositif qui doit être authentifié pour avoir accès au système du GC et aux ressources d'information"
+        },
+        "detail": {
+            "en": "<p>This includes any device that needs to be authenticated to gain access to some resource, such as:<ul><li>Mobile devices (including tablets)</li><li>Laptops and desktop computers</li><li>Internet of Things (IoT) / smart devices</li><li>Network devices</li><li>Servers</li><li>Voice assistants</li></ul></p><p>Devices used to access internal GC resources will typically be owned/managed by the GC and will be authenticated (e.g., using device certificates) and assessed before access to internal GC resources is permitted.  However, there may be exceptions to this to accommodate certain situations such as consultants (e.g., permitting the use of an unmanaged phone as a second factor for authentication purposes) or allow employees to use their personal devices to access less critical (lower assurance) applications/services such as on-line training.  On the other hand, the GC has no control over the devices used by the public to access external facing GC services.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "applications",
+        "iconImg": "assets/applications.png",
+        "iconAlt": "Applications",
+        "title": {
+            "en": "Applications",
+            "fr": "Applications"
+        },
+        "description": {
+            "en": "applications and services that interact with one another",
+            "fr": "applications et services qui interagissent entre eux"
+        },
+        "detail": {
+            "en": "<p>This includes any application that needs to be authenticated in order to interact with another application or service.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "ai-robots",
+        "iconImg": "assets/robots.png",
+        "iconAlt": "AI/Robots",
+        "title": {
+            "en": "AI/Robots",
+            "fr": "Intelligence artificielle (IA) et robots"
+        },
+        "description": {
+            "en": "advanced technologies that can act on behalf of a user or are embedded in a device or application",
+            "fr": "technologies de pointe qui peuvent agir au nom d'un utilisateur ou qui sont intégrées à un dispositif ou à une application"
+        },
+        "detail": {
+            "en": "<p>Artificial Intelligence (AI) and robots are emerging technologies that are already influencing digital service delivery and are expected to play a significant role in the future.  AI/robots can be implemented in various forms including as autonomous entities, acting on behalf of a user (and therefore appear to be that user), or embedded in a device or application.</p>",
+            "fr": ""
+        }
+    }
+]

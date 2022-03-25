@@ -1,19 +1,68 @@
 <template>
-  <img src="/assets/arrowUp.png" alt="Arrow" style="margin-top: -1rem; height: 5rem" />
-  <div class="row">
-    <img src="/assets/arrowLeft.png" class="col g-0" alt="Left Arrow" style="margin-left:-2rem; width:4rem; height:2rem;margin-top:1rem" />
-    <div id="levels" class="col g-0">Levels of Assurance</div>
-    <img src="/assets/arrowRight.png" class="col g-0" alt="Right Arrow" style="margin-right:-2rem;width: 4rem; height:2rem;margin-top:1rem" />
-  </div>  
-  <img src="/assets/arrowDown.png" alt="Arrow" style="margin-bottom: -1rem; height: 5rem" />
+  <fa icon="up-long"></fa>
+  <div class="row align-middle">
+    <div class="col-1 gx-0 gy-4">
+      <fa icon="left-long"></fa>
+    </div>
+    <div class="col-10">
+      <a
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        @click="showDetail"
+        ><popover-button :description="getDescription" :title="getTitle">{{
+          getTitle
+        }}</popover-button></a
+      >
+    </div>
+    <div class="col-1 gx-0 gy-4 text-end">
+      <fa icon="right-long"></fa>
+    </div>
+  </div>
+  <fa icon="down-long"></fa>
 </template>
 
+<script>
+import PopoverButton from "./UI/PopoverButton.vue";
+import levelOfAssurance from "../resources/levelAssurance.json";
+export default {
+  emits: ["detail"],
+  components: {
+    PopoverButton
+  },
+  data() {
+    return {
+      levelOfAssurance
+    };
+  },
+  methods: {
+    showDetail() {
+      this.$emit("detail", this.levelOfAssurance[0]);
+    }
+  },
+  computed: {
+    getDescription() {
+      return this.levelOfAssurance[0].description[this.$i18n.locale];
+    },
+    getTitle() {
+      return this.levelOfAssurance[0].title[this.$i18n.locale];
+    }
+  }
+};
+</script>
+
 <style scoped>
-div#levels{
+button {
   border-radius: 50%;
-  background-color:#00B0F0;
+  background-color: #00b0f0;
   color: black;
   padding: 1rem;
-  line-height: 1rem;
+  margin: 0;
+  width: 100%;
+}
+button:hover,
+button:active {
+  background-color: yellow;
+  border-color: #270041;
 }
 </style>

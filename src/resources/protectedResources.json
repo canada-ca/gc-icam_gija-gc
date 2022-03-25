@@ -1,0 +1,91 @@
+[{
+        "id": "applications-services",
+        "title": {
+            "en": "Applications, Services and APIs",
+            "fr": "Applications, services et interfaces de programmation d'applications (API)"
+        },
+        "description": {
+            "en": "GC applications and services consumed by internal and external entities",
+            "fr": "applications et services du GC consommés par des entités internes et externes"
+        },
+        "detail": {
+            "en": "<p>Applications and services take many forms such as portals, enterprise business apps, mobile apps, collaboration apps, on-line services, workloads, etc.  Applications usually help facilitate either access to a service or be the service themselves.</p><p>Applications and services are built on a wide range of modern and legacy technologies and platforms, which can pose a challenge to an ICAM infrastructure to support effectively.</p><p>In more modern systems, Application Programming Interfaces (APIs) are the norm for passing information between systems.  The GC will have its own API store to be accessed by other departments and the public, and the GC will also access external information from public APIs provided by other organizations. In order to access GC APIs, users and applications will often need to authenticate and be authorized to view or modify data available over the API using secure mechanisms.</p><p>Cloud providers also use ICAM APIs for securely controlling access to services. With these, you can centrally manage users, security credentials such as access keys, and permissions that control which resources users and applications can access.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "cloud",
+        "title": {
+            "en": "Cloud",
+            "fr": "Nuage"
+        },
+        "description": {
+            "en": "on demand computing resources used by the GC to deliver services to internal and external entities",
+            "fr": "ressources informatiques à la demande utilisées par le GC pour fournir des services aux entités internes et externes"
+        },
+        "detail": {
+            "en": "<p>Although cloud is really just a different way of providing resources and services to a department, it also introduces new mechanisms for administrative (privileged access) control and extensive new ICAM componentry for user authentication and authorization (referred to as IDaaS). In particular cloud introduces its own (sometimes proprietary) directories which may need to interoperate with on premise directories and those from other cloud service providers.</p><p>There are also the many different flavours of cloud, such as SaaS, PaaS, and IaaS, as well as public vs hybrid vs private cloud that impact on the ICAM options available.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "devices",
+        "title": {
+            "en": "Devices",
+            "fr": "Dispositifs"
+        },
+        "description": {
+            "en": "any managed device used to support GC operations",
+            "fr": "tout dispositif géré utilisé pour soutenir les opérations du GC"
+        },
+        "detail": {
+            "en": "<p>As with applications, devices take many forms including desktops, laptops, tablets, cell phones, voice assistants and IoT (e.g., scanners, surveillance cameras, electronic sensors). These are managed devices where the GC controls authentication and authorization of their use. Mechanisms for authentication vary and can include passwords, PINs, biometrics (e.g., face or fingerprint) as well as MFA. In the best cases a TPM (trusted platform module) is available on the device to allow it to relay the user authentication that was performed to the device to other endpoints.</p><p>Devices come in many flavours of operating system, capabilities, versions, so obtaining a consistent level of ICAM security across many disparate devices can be a challenge.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "platforms-middleware",
+        "title": {
+            "en": "Platforms / Middleware",
+            "fr": "Plateformes et intergiciels"
+        },
+        "description": {
+            "en": "the operating system and the computer that it runs on, combined with software that acts as a bridge between the operating system (or database) and various programs/applications",
+            "fr": "le système d'exploitation et l'ordinateur sur lequel il est exécuté, combiné à un logiciel qui sert de pont entre le système d'exploitation (ou la base de données) et divers programmes/applications"
+        },
+        "detail": {
+            "en": "<p>A platform (or computing platform) is the combination of the operating system and the computer (particularly the CPU) that it runs on. Middleware is software that acts as a bridge between an operating system or database and applications, especially on a network.  As Gartner defines it, middleware is the software \u201cglue\u201d that helps programs and databases (which may be on different computers) work together. Its most basic function is to enable communication between different pieces of software.</p><p>Examples include container orchestration, serverless, virtualization, enterprise service bus, API gateway, devops orchestration, etc.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "infrastructure",
+        "title": {
+            "en": "Infrastructure",
+            "fr": "Infrastructure"
+        },
+        "description": {
+            "en": "a wide range of technologies that include network components, appliances, servers and data centres",
+            "fr": "une vaste gamme de technologies qui comprennent des composantes de réseau, des appareils, des serveurs et des centres de données"
+        },
+        "detail": {
+            "en": "<p>Infrastructure is a broad category that includes a wide range of technology components including:<ul><li>servers (e.g., databases, proxies, storage/backup, domain controllers, jump servers)</li><li>appliances (e.g., black-box devices, virtual appliances, storage, compute, high performance computing)</li><li>network components (e.g., routers, switches, firewalls, access points)</li><li>data centre (e.g., HVAC systems, power management, physical security systems)</li></ul></p><p>Infrastructure components need to be identified, catalogued and issued credentials as necessary to support authentication between (and with) these components.</p>",
+            "fr": ""
+        }
+    },
+    {
+        "id": "facilities",
+        "title": {
+            "en": "Facilities",
+            "fr": "Installations"
+        },
+        "description": {
+            "en": "GC buildings or restricted areas that require controlled physical access",
+            "fr": "bâtiments du GC ou zones réglementées nécessitant un accès physique contrôlé"
+        },
+        "detail": {
+            "en": "<p>Facilities or physical access control systems (PACS) also require the full suite of ICAM functions to make access control decisions. On the other hand, the physical components that make up a PACS are completely different than those that make up a logical access control system (LACS), so interoperability between PACS and LACS is an important consideration in achieving a single, cohesive ICAM solution for the GC. In particular, the authoritative sources, identity management systems, and credential management systems must be interoperable across LACS and PACS.</p>",
+            "fr": ""
+        }
+    }
+]
