@@ -8,7 +8,7 @@
       <div class="col-1 mt-3">
         <a
           href="#"
-          title="Français  - Version française de cette page"
+          title="Français - Version française de cette page"
           lang="fr"
           @click="toggleLang"
           >{{ computedLang }}</a
