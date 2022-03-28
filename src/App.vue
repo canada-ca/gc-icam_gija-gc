@@ -4,8 +4,14 @@
 
 <script>
 export default {
-  name: 'App',
-}
+  name: "App",
+  created() {
+    const locale = localStorage.getItem("locale");
+    if (locale) {
+      this.$i18n.locale = locale;
+    }
+  }
+};
 </script>
 
 <style>
