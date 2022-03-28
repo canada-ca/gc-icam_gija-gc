@@ -128,6 +128,8 @@ export default {
       } else {
         this.$i18n.locale = "fr";
       }
+      let redirectTo = this.$i18n.locale;
+      this.$router.push("/" + redirectTo);
     },
     reloadPopover() {
       Array.from(
