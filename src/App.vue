@@ -13,6 +13,7 @@ export default {
       this.$i18n.locale = navigator.language.substring(0, 2);
     }
     this.$router.push({
+      name: "home",
       params: {
         lang: this.$i18n.locale
       }
