@@ -15,8 +15,8 @@ library.add(fas)
 
 const app = createApp(App)
 
-app.use(router)
 app.use(i18n)
+app.use(router)
 
 app.component('base-card', BaseCard)
 app.component('base-button', BaseButton)
