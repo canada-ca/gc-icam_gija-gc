@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="alert alert-secondary" role="alert">
+    <div class="alert alert-secondary text-start" role="alert">
       <a
         type="button"
         class="btn btn-primary mx-2"
@@ -178,5 +178,8 @@ export default {
 }
 .shorterMargin {
   margin-top: 3rem;
+}
+a.btn {
+  border-radius: 0;
 }
 </style>
