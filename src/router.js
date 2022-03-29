@@ -15,7 +15,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/en'
+      component: Home
     },
     {
       path: '/:lang',
