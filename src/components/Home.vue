@@ -8,7 +8,7 @@
       <div class="col-1 mt-3">
         <a
           href="#"
-          title="Français  - Version française de cette page"
+          title="Français - Version française de cette page"
           lang="fr"
           @click="toggleLang"
           >{{ computedLang }}</a
@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="alert alert-secondary" role="alert">
+    <div class="alert alert-secondary text-start" role="alert">
       <a
         type="button"
         class="btn btn-primary mx-2"
@@ -128,6 +128,9 @@ export default {
       } else {
         this.$i18n.locale = "fr";
       }
+      let locale = this.$i18n.locale;
+      localStorage.setItem("locale", locale);
+      this.$router.push("/" + locale);
     },
     reloadPopover() {
       Array.from(
@@ -175,5 +178,8 @@ export default {
 }
 .shorterMargin {
   margin-top: 3rem;
+}
+a.btn {
+  border-radius: 0;
 }
 </style>

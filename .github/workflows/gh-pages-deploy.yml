@@ -2,7 +2,7 @@ name: Deploy to github pages
 on:
   push:
     branches:
-      - dev
+      - main
 jobs:
   gh-pages-deploy:
     name: Deploying to gh-pages
@@ -11,7 +11,7 @@ jobs:
       - name: Setup Node.js for use with actions
         uses: actions/setup-node@v2
         with:
-          node-version: 12.x
+          node-version: 16.x
       - name: Checkout branch
         uses: actions/checkout@v2
 
