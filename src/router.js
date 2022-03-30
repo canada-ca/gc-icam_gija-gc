@@ -15,11 +15,11 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      redirect: "home"
     },
     {
       path: '/:lang',
+      name: 'home',
       component: Home
     },
     {
