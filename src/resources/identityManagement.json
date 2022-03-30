@@ -2,15 +2,15 @@
         "id": "identity-establishment",
         "title": {
             "en": "Identity Establishment",
-            "fr": "Établissement de l'identité"
+            "fr": "Établissement de l’identité"
         },
         "description": {
             "en": "the creation of an authoritative record of identity that is relied on by others for subsequent government activities",
-            "fr": "la création d'un dossier d'identité faisant autorité sur lequel d'autres personnes se fient pour les activités gouvernementales subséquentes"
+            "fr": "la création d’un dossier d’identité faisant autorité sur lequel d’autres personnes se fient pour les activités gouvernementales subséquentes"
         },
         "detail": {
             "en": "<p> An identity attribute is a property or characteristic associated with an identifiable entity (e.g., an individual, device or business). A collection or set of identity attributes that is sufficient to distinguish one entity from another in a given context is referred to as an identity record (or identity information). The creation of an authoritative record of identity that is relied on by others for subsequent government activities, programs and services is referred to as identity establishment. This set of attributes is sometimes referred to as \u201ccore identity attributes\u201d. Other identity attribute categories include contact attributes (e.g., address, phone number, email address), authorization attributes (i.e., privileges or entitlements - see Section 3.1.1.4 in document) and auxiliary attributes (e.g., language preference - see Section 3.1.1.9 in document).</p> <p>Note that identity attributes can be retrieved from one or more Authoritative Sources (see Sections 3.1.1.6 and 3.2.3 in document).</p>",
-            "fr": ""
+            "fr": "<p>Un attribut d’identité est une propriété ou une caractéristique associée à une entité identifiable (p. ex., une personne, un appareil ou une entreprise) . Une collection ou un ensemble d’attributs d’identité suffisants pour distinguer une entité d’une autre dans un contexte donné est appelé un enregistrement d’identité (ou des renseignements d’identité) . L’établissement de l’identité fait référence à la création d’un dossier d’identité faisant autorité et sur lequel se basent des tiers dans le cadre d’activités, de programmes et de services gouvernementaux subséquents. Cet ensemble d’attributs est parfois appelé « attributs d’identité de base ». Les autres catégories d’attributs d’identité comprennent les attributs de coordonnées (p. ex., adresse, numéro de téléphone, adresse électronique), les attributs d’autorisation (p. ex., privilèges ou droits – voir la section 3.1.1.4) et les attributs auxiliaires (p. ex., préférence de langue – voir la section 3.1.1.9 du document).</p><p>Veuillez prendre note que les attributs d’identité peuvent être récupérés à partir d’une ou plusieurs sources faisant autorité (voir les sections 3.1.1.6 et 3.2.3).</p>"
         }
     },
     {
@@ -21,56 +21,56 @@
         },
         "description": {
             "en": "the set of privileges or entitlements associated with an entity that support informed access control decisions",
-            "fr": "l'ensemble de privilèges ou de droits associés à une entité qui favorise la prise de décisions éclairées en matière de contrôle d'accès"
+            "fr": "l’ensemble de privilèges ou de droits associés à une entité qui favorise la prise de décisions éclairées en matière de contrôle d’accès"
         },
         "detail": {
             "en": "<p>Once a core identity has been established, the set of privileges or entitlements associated with that entity need to be established in order to support informed access control decisions. The privileges may be specified as individual authorization attributes and/or they can be associated with a specific role (e.g., a system administrator is permitted to perform specific functions associated with that role). These authorization attributes may be added to an identity record or may be stored and retrieved separately from one or more Authoritative Sources. </p>",
-            "fr": ""
+            "fr": "<p>Une fois qu’une identité de base a été établie, l’ensemble des privilèges ou droits associés à cette entité doit être établi afin d’appuyer des décisions éclairées en matière de contrôle de l’accès. Les privilèges peuvent être spécifiés comme attributs d’autorisation individuels ou être associés à un rôle spécifique (p. ex., un administrateur système est autorisé à exécuter des fonctions spécifiques associées à ce rôle). Ces attributs d’autorisation peuvent être ajoutés à un enregistrement d’identité ou être stockés et récupérés séparément d’une ou de plusieurs sources faisant autorité.</p>"
         }
     },
     {
         "id": "identity-lifecycle",
         "title": {
             "en": "Identity Lifecycle Management",
-            "fr": "Gestion du cycle de vie de l'identité"
+            "fr": "Gestion du cycle de vie de l’identité"
         },
         "description": {
             "en": "the provisioning, ongoing maintenance and de-provisioning of identity attributes",
-            "fr": "l'approvisionnement, la maintenance et le retrait continus des attributs d'identité"
+            "fr": "l’approvisionnement, la maintenance et le retrait continus des attributs d’identité"
         },
         "detail": {
-            "en": "<p>Once the various attributes associated with a digital identity have been established, they must be managed over time. Management of the lifecycle of digital identities consists of:</p> <ul> <li> Provisioning: creation of identity attributes associated with the digital identity. </li><li>Maintenance: maintain accurate and up-to-date attributes in an identity record over its lifecycle. </li><li>De-provisioning: deactivate or remove identity attributes or identity records as required. </li></ul>",
-            "fr": ""
+            "en": "<p>Once the various attributes associated with a digital identity have been established, they must be managed over time. Management of the lifecycle of digital identities consists of:</p> <ul> <li> Provisioning: creation of identity attributes associated with the digital identity. </li><li>Maintenance: maintain accurate and up-to-date attributes in an identity record over its lifecycle. </li><li>De-provisioning: deactivate or remove identity attributes or identity records as required. </li></ul></p>",
+            "fr": "<p>Une fois que les différents attributs associés à une identité numérique ont été établis, ils doivent être gérés au fil du temps. La gestion du cycle de vie des identités numériques est composée des éléments suivants :</p><ul><li>Approvisionnement : Création d’attributs d’identité associés à l’identité numérique</li><li>Maintenance : Conserver des attributs précis et à jour dans un enregistrement d’identité  tout au long de son cycle de vie.</li><li>Retrait : Désactiver ou supprimer les attributs d’identité ou les enregistrements d’identité au besoin.</li></ul></p>"
         }
     },
     {
         "id": "authoritative-attribute",
         "title": {
             "en": "Authoritative Attribute Exchange Service",
-            "fr": "Service d'échange d'attributs autorisés"
+            "fr": "Service d’échange d’attributs autorisés"
         },
         "description": {
             "en": "a broker between multiple, disparate Authoritative Sources and the consumers of the identity information",
-            "fr": "un courtier entre plusieurs sources disparates faisant autorité et les consommateurs de renseignements d'identité"
+            "fr": "un courtier entre plusieurs sources disparates faisant autorité et les consommateurs de renseignements d’identité"
         },
         "detail": {
-            "en": "<p>The Authoritative Attribute Exchange Service (AAES) serves as a broker between multiple, disparate Authoritative Sources and the consumers of the identity information, thus serving as a  consolidated identity repository.  The AAES is comprised of an Authoritative Attribute Manager which retrieves, correlates and consolidates identity attributes from multiple authoritative sources and an Authoritative Attribute Distributor which provides a single access point for consumers to retrieve the identity attributes.  The AAES may be implemented as a virtual directory or it may be implemented as a meta-directory with local identity attribute storage.The identity attributes may be consumed directly by applications/services; and the AAES can help to populate other downstream identity repositories where required. </p><p> In association with the appropriate workflows, the AAES may also support other functions such as Master Data Management and automated account provisioning/de-provisioning.</p>",
-            "fr": ""
+            "en": "<p>The Authoritative Attribute Exchange Service (AAES) serves as a broker between multiple, disparate Authoritative Sources and the consumers of the identity information, thus serving as a consolidated identity repository. The AAES is comprised of an Authoritative Attribute Manager which retrieves, correlates and consolidates identity attributes from multiple authoritative sources and an Authoritative Attribute Distributor which provides a single access point for consumers to retrieve the identity attributes. The AAES may be implemented as a virtual directory or it may be implemented as a meta-directory with local identity attribute storage.The identity attributes may be consumed directly by applications/services; and the AAES can help to populate other downstream identity repositories where required. </p><p> In association with the appropriate workflows, the AAES may also support other functions such as Master Data Management and automated account provisioning/de-provisioning.</p>",
+            "fr": "<p>Le Service d’échange d’attributs autorisés (SEAA) sert de courtier entre plusieurs sources disparates faisant autorité et les consommateurs de renseignements sur l’identité, servant ainsi de référentiel d’identité regroupé. Le SEAA est composé d’un gestionnaire d’attributs faisant autorité qui récupère et regroupe les attributs d’identité de plusieurs sources faisant autorité, et en fait la correspondance, et d’un distributeur d’attributs autorisés qui fournit un point d’accès unique aux consommateurs pour récupérer les attributs d’identité. Le SEAA peut être mis en place comme référentiel virtuel ou méta-référentiel avec stockage d’attributs d’identité locale. Les attributs d’identité peuvent être utilisés directement par les applications ou les services, et le SEAA peut aider à remplir d’autres référentiels d’identité en aval au besoin. Afin d’assurer une certaine souplesse, les consommateurs d’attributs d’identité peuvent obtenir leurs attributs d’identité auprès du SEAA, d’un autre référentiel d’identité ou des deux.</p><p>En association avec les flux opérationnels appropriés, le SEAA peut également prendre en charge d’autres fonctions telles que la gestion des données de référence et l’approvisionnement et le retrait automatisé des comptes.</p>"
         }
     },
     {
         "id": "identity-repositories",
         "title": {
             "en": "Identity Repositories",
-            "fr": "Référentiels d'identités"
+            "fr": "Référentiels d’identités"
         },
         "description": {
             "en": "any data repository that stores identity information",
-            "fr": "tout entrepôt de données qui stocke des renseignements d'identité"
+            "fr": "tout entrepôt de données qui stocke des renseignements d’identité"
         },
         "detail": {
             "en": "<p>Simply put, an identity repository is any data repository that stores identity information.  This could be an HR database, a centralized identity attribute store that collects identity information from multiple authoritative sources (as discussed under Section 3.1.1.6 in the document), or a separate dedicated directory component such as Active Directory.</p>",
-            "fr": ""
+            "fr": "<p>En termes simples, un référentiel d’identité est un référentiel de données qui stocke des renseignements d’identité. Il peut s’agir d’une base de données des RH, d’une unité de stockage d’attributs d’identité centralisée qui recueille des renseignements d’identité à partir de plusieurs sources faisant autorité (comme indiqué à la section 3.1.1.6 dans le document) ou d’un référentiel de composantes dédié et distinct tel qu’Active Directory.</p>"
         }
     },
     {
@@ -81,11 +81,11 @@
         },
         "description": {
             "en": "the de-centralization of certain system administration functions",
-            "fr": "la décentralisation de certaines fonctions d'administration du système"
+            "fr": "la décentralisation de certaines fonctions d’administration du système"
         },
         "detail": {
             "en": "<p> In the context of IT, delegated administration allows for the de-centralization of certain administrative functions.  Essentially, someone in an administrator role (e.g., a system administrator) can assign a subset of less critical administrative functions to someone else, typically someone that is better suited to carry out the task(s).  For example, an administrator could assign responsibility for managing the profiles of a group of employees to their supervisor.  Delegated administration can also be used to facilitate delegation of authority (i.e., a manager with a certain set of authorities could assign a subset or all of those authorities to others).  This results in greater efficiencies, reduces the workload on the system administrators, supports business continuity, and is key to scalability in a large organization such as the GC. </p>",
-            "fr": ""
+            "fr": "<p>Dans le contexte informatique, l’administration déléguée permet la décentralisation de certaines fonctions administratives. Essentiellement, une personne jouant un rôle d’administrateur (p. ex., un administrateur système) peut attribuer un sous-ensemble de fonctions administratives moins essentielles à une autre personne qui est généralement mieux adaptée à l’exécution de la ou des tâches. Par exemple, un administrateur pourrait confier la gestion des profils d’un groupe d’employés à son superviseur. L’administration déléguée peut également servir à faciliter la délégation de pouvoirs (c’est à-dire qu’un gestionnaire ayant un certain ensemble de pouvoirs peut attribuer un sous-ensemble de ces pouvoirs à d’autres, ou l’ensemble de ces pouvoirs). Cela permet d’accroître l’efficacité, de réduire la charge de travail des administrateurs système, d’appuyer la continuité de l’activité et d’assurer l’évolutivité d’une grande organisation comme le GC.</p>"
         }
     },
     {
@@ -96,11 +96,11 @@
         },
         "description": {
             "en": "the ability to allow users to specify or change certain identity attributes",
-            "fr": "la possibilité pour les utilisateurs de préciser ou de modifier certains attributs d'identité"
+            "fr": "la possibilité pour les utilisateurs de préciser ou de modifier certains attributs d’identité"
         },
         "detail": {
             "en": "<p> In a large enterprise ICAM system, self-service is an important capability to aid in handling scale. For non-authoritative identity attributes such as user preferences (e.g., language preference), a self-service model can meet the requirements without the need to verify the accuracy of the attributes. For authoritative identity attributes (e.g., name, employee id, department) that may be used for access control decisions, a mechanism for confirming correctness of the identity attribute changed via self-service is needed. Self-service also permits users to request new entitlements or roles which are subject to approval by an authorized agent (which may be supported by approval workflows as discussed in Section 3.2.2.3 within the document).</p>",
-            "fr": ""
+            "fr": "<p>Dans un système de GIJA de grande organisation, le libre-service est une capacité importante pour aider à la gestion de l’échelle. Dans le cas d’attributs d’identité qui ne font pas autorité, comme les préférences des utilisateurs (p. ex., les préférences linguistiques), un modèle libre-service peut satisfaire aux exigences sans le besoin de vérifier l’exactitude des attributs. Pour les attributs d’identité faisant autorité (p. ex., nom, numéro d’identification de l’employé, ministère) qui peuvent être utilisés pour les décisions de contrôle d’accès, un mécanisme permettant de confirmer l’exactitude de l’attribut d’identité modifié par le libre-service est nécessaire. Le libre-service permet également aux utilisateurs de demander de nouveaux droits ou de nouveaux rôles qui sont soumis à l’approbation d’un agent autorisé (qui peuvent être appuyés par des flux opérationnels d’approbation, comme il est indiqué à la section 3.2.2.3 du document).</p>"
         }
     }
 ]

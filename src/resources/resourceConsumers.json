@@ -8,11 +8,11 @@
         },
         "description": {
             "en": "internal and external consumers of GC system and information resources",
-            "fr": "consommateurs internes et externes du système du GC et des ressources d'information"
+            "fr": "consommateurs internes et externes du système du GC et des ressources d’information"
         },
         "detail": {
             "en": "<p>This includes<ul><li>internal users such as:<ul><li>public servants, contractors, RCMP officers, Canadian Forces members, locally-engaged staff (e.g., embassy staff), trusted guests (e.g., interchanges from other governments)</li></ul></li><li>external users such as:<ul><li>members of the public, visitors, members of other levels of government, and members of businesses and other organizations</li></ul></li></ul></p><p>Users may be acting on their own behalf or as a proxy for others. A user may also have many roles or personas in their interactions with the GC.</p>",
-            "fr": ""
+            "fr": "<p>Cela comprend :<ul><li>les utilisateurs internes tels que :<ul><li>les fonctionnaires, entrepreneurs, agents de la GRC ou membres des Forces canadiennes, le personnel engagé sur place (p. ex., le personnel de l’ambassade) et les invités de confiance (p. ex., échanges d’autres gouvernements);</li></ul></li><li>les utilisateurs externes tels que :<ul><li>le public, les visiteurs, les membres d’autres ordres de gouvernement, d’entreprises et d’autres organisations.</li></ul></li></ul></p><p>Les utilisateurs peuvent agir en leur propre nom ou comme mandataires pour d’autres personnes. Un utilisateur peut aussi avoir de nombreux rôles ou personnalités dans ses interactions avec le GC. </p>"
         }
     },
     {
@@ -29,7 +29,7 @@
         },
         "detail": {
             "en": "<p>This includes the commercial businesses, non-profit organizations, Indigenous self-government and all levels of government that would need to interact with the federal government for some purpose.</p>",
-            "fr": ""
+            "fr": "<p>Cela comprend les entreprises commerciales, les organismes sans but lucratif, les gouvernements autochtones autonomes et tous les ordres de gouvernement qui devraient interagir avec le gouvernement fédéral à une fin quelconque.</p>"
         }
     },
     {
@@ -42,11 +42,11 @@
         },
         "description": {
             "en": "any device that needs to be authenticated to gain access to GC system and information resources",
-            "fr": "tout dispositif qui doit être authentifié pour avoir accès au système du GC et aux ressources d'information"
+            "fr": "tout dispositif qui doit être authentifié pour avoir accès au système du GC et aux ressources d’information"
         },
         "detail": {
             "en": "<p>This includes any device that needs to be authenticated to gain access to some resource, such as:<ul><li>Mobile devices (including tablets)</li><li>Laptops and desktop computers</li><li>Internet of Things (IoT) / smart devices</li><li>Network devices</li><li>Servers</li><li>Voice assistants</li></ul></p><p>Devices used to access internal GC resources will typically be owned/managed by the GC and will be authenticated (e.g., using device certificates) and assessed before access to internal GC resources is permitted.  However, there may be exceptions to this to accommodate certain situations such as consultants (e.g., permitting the use of an unmanaged phone as a second factor for authentication purposes) or allow employees to use their personal devices to access less critical (lower assurance) applications/services such as on-line training.  On the other hand, the GC has no control over the devices used by the public to access external facing GC services.</p>",
-            "fr": ""
+            "fr": "<p>On entend tout périphérique qui doit être authentifié pour accéder à une ressource, comme :<ul><li>les périphériques mobiles (y compris les tablettes);</li><li>les ordinateurs portatifs et les ordinateurs de bureau;</li><li>l’Internet des objets (IdO) et les appareils intelligents;</li><li>les appareils réseau;</li><li>les serveurs;</li><li>les assistants vocaux.</li></ul></p><p>Les dispositifs utilisés pour accéder aux ressources internes du GC seront généralement détenus et gérés par le GC et seront authentifiés (p. ex., au moyen de certificats de dispositifs) et évalués avant que l’accès aux ressources internes du GC ne soit autorisé. Toutefois, il peut y avoir des exceptions à cette règle pour tenir compte de certaines situations qui impliquent par exemple des consultants (p. ex., permettre l’utilisation d’un téléphone non géré comme deuxième facteur d’authentification) ou l’autorisation accordée à des employés d’utiliser leurs appareils personnels pour accéder à des applications ou services moins critiques (assurance moindre), comme la formation en ligne. D’autre part, le GC n’a aucun contrôle sur les appareils utilisés par le public pour accéder aux services externes du GC.</p>"
         }
     },
     {
@@ -63,7 +63,7 @@
         },
         "detail": {
             "en": "<p>This includes any application that needs to be authenticated in order to interact with another application or service.</p>",
-            "fr": ""
+            "fr": "<p>Cela comprend toute application qui doit être authentifiée pour interagir avec une autre application ou un autre service.</p>"
         }
     },
     {
@@ -76,11 +76,11 @@
         },
         "description": {
             "en": "advanced technologies that can act on behalf of a user or are embedded in a device or application",
-            "fr": "technologies de pointe qui peuvent agir au nom d'un utilisateur ou qui sont intégrées à un dispositif ou à une application"
+            "fr": "technologies de pointe qui peuvent agir au nom d’un utilisateur ou qui sont intégrées à un dispositif ou à une application"
         },
         "detail": {
             "en": "<p>Artificial Intelligence (AI) and robots are emerging technologies that are already influencing digital service delivery and are expected to play a significant role in the future.  AI/robots can be implemented in various forms including as autonomous entities, acting on behalf of a user (and therefore appear to be that user), or embedded in a device or application.</p>",
-            "fr": ""
+            "fr": "<p>L’intelligence artificielle (IA) et les robots sont des technologies nouvelles qui influencent déjà la prestation de services numériques et qui devraient jouer un rôle important à l’avenir. Ils peuvent être mis en place sous différentes formes, y compris en tant qu’entités autonomes qui agissent pour le compte d’un utilisateur (et semblent donc être cet utilisateur), ou qui sont intégrés à un appareil ou une application.</p>"
         }
     }
 ]
