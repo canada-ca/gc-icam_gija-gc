@@ -76,7 +76,7 @@
         class="btn btn-primary mx-2"
         href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
         target="_blank"
-        ><fa icon="download"></fa> {{ $t("pdfFile") }}</a
+        ><fa icon="file-pdf"></fa> {{ $t("pdfFile") }}</a
       >
       <a
         type="button"
