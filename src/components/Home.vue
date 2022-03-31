@@ -76,14 +76,14 @@
         class="btn btn-primary mx-2"
         href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
         target="_blank"
-        >{{ $t("pdfFile") }}</a
+        ><fa icon="download"></fa> {{ $t("pdfFile") }}</a
       >
       <a
         type="button"
         class="btn btn-primary mx-2"
         href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
         target="_blank"
-        >{{ $t("download") }}</a
+        ><fa icon="cloud-arrow-down"></fa> {{ $t("download") }}</a
       >
     </div>
     <modal-card :modalHead="modalHead" :modalBody="modalBody" />
