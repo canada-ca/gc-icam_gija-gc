@@ -18,11 +18,6 @@ const router = createRouter({
       redirect: "home"
     },
     {
-      path: '/:lang',
-      name: 'home',
-      component: Home
-    },
-    {
       path: '/resource-consumers',
       component: ResourceConsumers
     },
@@ -53,6 +48,11 @@ const router = createRouter({
     {
       path: '/credential-management',
       component: CredentialManagement
+    },
+    {
+      path: '/:lang',
+      name: 'home',
+      component: Home
     }
   ]
 });
