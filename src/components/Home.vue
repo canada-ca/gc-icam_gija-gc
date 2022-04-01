@@ -74,14 +74,14 @@
       <a
         type="button"
         class="btn btn-primary mx-2"
-        href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
+        :href="$t('pdfFileName')"
         target="_blank"
         ><fa icon="file-pdf"></fa> {{ $t("pdfFile") }}</a
       >
       <a
         type="button"
         class="btn btn-primary mx-2"
-        href="docs/GC ICAM Framework Diagrams with Expanded Definitions - 8 March 2022.pptx"
+        :href="$t('graphicsFileName')"
         target="_blank"
         ><fa icon="cloud-arrow-down"></fa> {{ $t("download") }}</a
       >
