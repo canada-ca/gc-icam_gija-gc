@@ -20,7 +20,7 @@ app.use(i18n)
 app.use(router)
 app.use(
   createGtm({
-    id: 'GTM-5QXVK8K',
+    id: 'GTM-PC8ZFZK',
     queryParams: {
       // Add URL query string when loading gtm.js with GTM ID (required when using custom environments)
       // gtm_auth: 'AB7cDEf3GHIjkl-MnOP8qr',
