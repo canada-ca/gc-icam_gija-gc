@@ -15,12 +15,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/:lang',
-      component: Home
+      redirect: "home"
     },
     {
       path: '/resource-consumers',
@@ -53,6 +48,11 @@ const router = createRouter({
     {
       path: '/credential-management',
       component: CredentialManagement
+    },
+    {
+      path: '/:lang',
+      name: 'home',
+      component: Home
     }
   ]
 });

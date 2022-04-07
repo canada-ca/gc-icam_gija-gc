@@ -3,7 +3,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <router-link to="/">{{ $t("home") }}</router-link>
+          <router-link :to="lang">{{ $t("home") }}</router-link>
         </li>
         <li class="breadcrumb-item active" aria-current="page">
           {{ header }}
@@ -34,7 +34,12 @@ export default {
   components: {
     DescriptionCard
   },
-  props: ["header", "mode", "items"]
+  props: ["header", "mode", "items"],
+  computed: {
+    lang() {
+      return "/" + this.$i18n.locale;
+    }
+  }
 };
 </script>
 

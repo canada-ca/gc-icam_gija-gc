@@ -6,41 +6,41 @@
         },
         "description": {
             "en": "the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy",
-            "fr": "le processus d'organisation des données en résumés d'information afin de surveiller la façon dont les différents composants de la GIJIA fonctionnent et se conforment à la politique"
+            "fr": "le processus d’organisation des données en résumés d’information afin de surveiller la façon dont les différents composants de la GIJIA fonctionnent et se conforment à la politique"
         },
         "detail": {
             "en": "<p>Reporting is \"the process of organizing data into informational summaries in order to monitor how different ICAM components are performing and complying with policy\". Analytics is \"the process of exploring data and reports in order to extract meaningful insights, which can be used to better understand the overall system and improve efficiency\".</p><p>Reporting and analytics span across many (if not all) ICAM systems including (but not limited to): application layer, data layer, presentation layer, as well as physical systems which interact with the ICAM components.</p><p>Examples of reporting and analytics are:<ul><li>Application/Platform Certification (Attestation)</li><li>Data/File Access Certification (Attestation)</li><li>Exception Reporting</li><li>Activity-Based Reporting</li><li>Role Certification (Attestation)</li></ul></p>",
-            "fr": ""
+            "fr": "<p>L’établissement de rapports est « le processus d’organisation des données en résumés d’information afin de surveiller la façon dont les différentes composantes de la GIJA fonctionnent et se conforment à la politique ». L’analyse est « le processus d’exploration des données et des rapports afin d’obtenir des renseignements utiles qui peuvent être utilisés pour mieux comprendre le système global et améliorer l’efficacité ».</p><p>L’établissement de rapports et les analyses couvrent de nombreux systèmes de GIJA (sinon tous), y compris (mais sans s’y limiter) : couche de l’application, couche de données, couche de présentation, ainsi que les systèmes physiques qui interagissent avec les composantes de la GIJA.</p><p>Des exemples de l’établissement de rapports et d’analyses sont les suivants :<ul><li>Certification d’application ou plateforme (Attestation)</li><li>Certification d’accès aux données ou fichiers (Attestation)</li><li>Signalement des exceptions</li><li>Rapports axés sur les activités</li><li>Certification de rôle (attestation)</li></ul></p>"
         }
     },
     {
         "id": "access-certification",
         "title": {
             "en": "Access Certification & Discovery",
-            "fr": "Certification et découverte d'accès"
+            "fr": "Certification et découverte d’accès"
         },
         "description": {
             "en": "the process of validating access rights within systems to ensure they are kept up-to-date as circumstances change",
-            "fr": "le processus de validation des droits d'accès au sein des systèmes afin de garantir leur mise à jour au fur et à mesure que les circonstances changent"
+            "fr": "le processus de validation des droits d’accès au sein des systèmes afin de garantir leur mise à jour au fur et à mesure que les circonstances changent"
         },
         "detail": {
             "en": "<p>Access certification and discovery is the process of validating access rights within systems. This process is necessary for security risk management and effective governance. With access certification, organizations and regulations aim to formally validate users within systems and ensure their access rights are appropriate.</p>",
-            "fr": ""
+            "fr": "<p>La certification et la découverte d’accès sont le processus de validation des droits d’accès au sein des systèmes. Ce processus est nécessaire à la gestion des risques de sécurité et à une gouvernance efficace. Avec la certification d’accès, les organisations et les réglementations visent à valider formellement les utilisateurs au sein des systèmes et à veiller à ce que leurs droits d’accès soient appropriés.</p>"
         }
     },
     {
         "id": "approval-workflows",
         "title": {
             "en": "Approval Workflows",
-            "fr": "Flux opérationnels d'approbation"
+            "fr": "Flux opérationnels d’approbation"
         },
         "description": {
             "en": "processes used to manage the life cycle of a digital identity including provisioning, on-going maintenance and de-provisioning of identity attributes",
-            "fr": "processus utilisés pour gérer le cycle de vie d'une identité numérique, notamment l'approvisionnement, la maintenance continue et le retrait des attributs d'identité"
+            "fr": "processus utilisés pour gérer le cycle de vie d’une identité numérique, notamment l’approvisionnement, la maintenance continue et le retrait des attributs d’identité"
         },
         "detail": {
             "en": "<p>Approval workflows are used to manage the life cycle of a digital identity including provisioning, on-going maintenance and de-provisioning of identity attributes (e.g., name, privileges, roles). There can be, and typically are, more than one approval authority depending on the context. In addition, a single approval workflow can require multiple checks from a variety of stakeholders.</p><p>Approval workflows could:<ul><li>Be triggered automatically, for example when onboarding a new employee</li><li>Arise by user self-service request for access to a resource that requires separate approval</li><li>Be directly configured by an authorized authority (e.g., manager adding team members to a group)</li></ul></p>",
-            "fr": ""
+            "fr": "<p>Les flux opérationnels d’approbation sont utilisés pour gérer le cycle de vie d’une identité numérique, y compris l’approvisionnement, la maintenance continue et le retrait des attributs d’identité (p. ex., nom, privilèges, rôles). Il existe ou peut exister généralement plus d’une autorité d’approbation selon le contexte. En outre, un seul flux opérationnel d’approbation peut nécessiter plusieurs vérifications de la part de divers intervenants .</p><p>Les flux opérationnels d’approbation pourraient :<ul><li>être déclenchés automatiquement, par exemple à l’intégration d’un nouvel employé;</li><li>suivre la demande d’accès en libre-service d’un utilisateur à une ressource nécessitant une approbation distincte;</li><li>être configurés directement par une autorité autorisée (p. ex., le gestionnaire ajoute des membres d’équipe à un groupe).</li></ul></p>"
         }
     },
     {
@@ -55,7 +55,7 @@
         },
         "detail": {
             "en": "<p>Policy and compliance ensures adherence to the organization's policies and applicable laws. This enforcement can be done through a combination of automated and manual processes. Compliance can be further enhanced/evolved through mechanisms that are very formal, such as audits, to informal, such as peer reviews, which can happen on a periodic basis. Certain systems can have specific auditing requirements in order to maintain recognition/certification.</p><p>Types of policies could include:<ul><li>Privacy</li><li>Security</li><li>HR</li></ul></p><p>Policy and compliance includes remediation of any policy violations.</p>",
-            "fr": ""
+            "fr": "<p>La politique et la conformité assurent le respect des politiques de l’organisation et des lois applicables. Cette application de la loi peut se faire par une combinaison de processus automatisés et manuels. La conformité peut être améliorée ou renforcée grâce à des mécanismes très formels, comme des audits, ou informels, comme les examens par les pairs, qui peuvent être produits périodiquement. Certains systèmes peuvent avoir des exigences spécifiques en matière d’audit afin de maintenir la reconnaissance ou la certification.</p><p>Les types de politiques pourraient comprendre :<ul><li>la protection des renseignements personnels;</li><li>la sécurité;</li><li>les ressources humaines.</li></ul></p><p>La politique et la conformité comprennent la résolution de toute violation de politique.</p>"
         }
     },
     {
@@ -66,11 +66,11 @@
         },
         "description": {
             "en": "processes and tools used to support ongoing evaluation and assessment that various information systems are operating properly and are being used as intended",
-            "fr": "les processus et les outils utilisés pour soutenir l'évaluation et l'appréciation continues selon lesquels divers systèmes d'information fonctionnent correctement et sont utilisés comme prévu"
+            "fr": "les processus et les outils utilisés pour soutenir l’évaluation et l’appréciation continues selon lesquels divers systèmes d’information fonctionnent correctement et sont utilisés comme prévu"
         },
         "detail": {
             "en": "<p>An audit log is a chronological record of system activities, including records of system accesses and operations performed in a given period. Audit logs provide a record of important events that a given system (or collection of systems) has performed. This can be used to construct an audit trail to examine the sequence of activities surrounding or leading to a specific operation, procedure, or event in a security-relevant transaction to facilitate formal audits. Refer to <a href=\"https://www.canada.ca/en/government/system/digital-government/online-security-privacy/event-logging-guidance.html\" target=\"_blank\"><em>GC Event Logging Guidance</em></a> for further information.</p><p>Monitoring is an umbrella term that can include many facets of system evaluation. This is the process of collecting, aggregating and analyzing metrics to better evaluate the use of the system.</p><p>These components work together to ensure the system is healthy, running efficiently and are critical for detection and prevention of anomalies and threats.</p>",
-            "fr": ""
+            "fr": "<p>Un journal d’audit est un registre chronologique des activités du système, y compris des registres des accès au système et des opérations effectuées au cours d’une période donnée. Les journaux d’audit fournissent un enregistrement des événements importants qu’un système donné (ou une collection de systèmes) a effectués. Cet enregistrement peut être utilisé pour construire une piste d’audit afin d’examiner l’ordre des activités entourant une opération, une procédure ou un événement spécifique dans une transaction liée à la sécurité, ou y menant pour faciliter les audits officiels. Consultez l’Orientation sur la journalisation des événements du GC pour obtenir de plus amples renseignements.</p><p>La surveillance est un terme général qui peut inclure de nombreuses facettes de l’évaluation du système. Il s’agit d’un processus de collecte, d’agrégation et d’analyse des mesures pour mieux évaluer l’utilisation du système.</p><p>Ces composantes collaborent afin de veiller à ce que le système soit sain, qu’il fonctionne efficacement et qu’il soit essentiel pour la détection et la prévention des anomalies et des menaces.</p>"
         }
     }
 ]

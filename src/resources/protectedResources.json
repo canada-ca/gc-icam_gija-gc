@@ -2,7 +2,7 @@
         "id": "applications-services",
         "title": {
             "en": "Applications, Services and APIs",
-            "fr": "Applications, services et interfaces de programmation d'applications (API)"
+            "fr": "Applications, services et interfaces de programmation d’applications (API)"
         },
         "description": {
             "en": "GC applications and services consumed by internal and external entities",
@@ -10,7 +10,7 @@
         },
         "detail": {
             "en": "<p>Applications and services take many forms such as portals, enterprise business apps, mobile apps, collaboration apps, on-line services, workloads, etc.  Applications usually help facilitate either access to a service or be the service themselves.</p><p>Applications and services are built on a wide range of modern and legacy technologies and platforms, which can pose a challenge to an ICAM infrastructure to support effectively.</p><p>In more modern systems, Application Programming Interfaces (APIs) are the norm for passing information between systems.  The GC will have its own API store to be accessed by other departments and the public, and the GC will also access external information from public APIs provided by other organizations. In order to access GC APIs, users and applications will often need to authenticate and be authorized to view or modify data available over the API using secure mechanisms.</p><p>Cloud providers also use ICAM APIs for securely controlling access to services. With these, you can centrally manage users, security credentials such as access keys, and permissions that control which resources users and applications can access.</p>",
-            "fr": ""
+            "fr": "<p>Les applications et les services prennent de nombreuses formes, comme des portails, des applications commerciales intégrées, des applications mobiles, des applications de collaboration, des services en ligne ou des charges de travail, entre autres. Les applications facilitent généralement l’accès à un service ou sont le service en soi. </p><p>Les applications et les services sont basés sur un large éventail de technologies et de plateformes modernes et anciennes, ce qui peut poser un défi à une infrastructure de GIJA pour une prise en charge efficace.</p><p>Dans les systèmes modernes, les interfaces de programmation d’applications (API) sont la norme pour transmettre des renseignements entre les systèmes. Le GC disposera de son propre magasin d’API auquel pourront accéder d’autres ministères et le public, et il aura également accès à de l’information externe provenant d’API publiques fournies par d’autres organisations. Afin d’accéder aux API du GC, les utilisateurs et les applications devront souvent s’authentifier et être autorisés à consulter ou à modifier les données disponibles sur l’API à l’aide de mécanismes sécurisés.</p><p>Les fournisseurs d’informatique en nuage utilisent également les API de GIJA pour contrôler en toute sécurité l’accès aux services. Grâce à ces outils, vous pouvez gérer de manière centralisée les utilisateurs et les justificatifs de sécurité telles que les clés d’accès et les autorisations qui contrôlent les ressources auxquelles les utilisateurs et les applications peuvent accéder.</p>"
         }
     },
     {
@@ -25,7 +25,7 @@
         },
         "detail": {
             "en": "<p>Although cloud is really just a different way of providing resources and services to a department, it also introduces new mechanisms for administrative (privileged access) control and extensive new ICAM componentry for user authentication and authorization (referred to as IDaaS). In particular cloud introduces its own (sometimes proprietary) directories which may need to interoperate with on premise directories and those from other cloud service providers.</p><p>There are also the many different flavours of cloud, such as SaaS, PaaS, and IaaS, as well as public vs hybrid vs private cloud that impact on the ICAM options available.</p>",
-            "fr": ""
+            "fr": "<p>Bien que le nuage ne soit en fait qu’une façon différente de fournir des ressources et des services à un ministère, il introduit également de nouveaux mécanismes de contrôle administratif (accès privilégié) et une nouvelle composante de GIJA exhaustif pour l’authentification et l’autorisation des utilisateurs (appelé IDaaS [identité en tant que service]). Plus particulièrement, l’informatique en nuage introduit ses propres répertoires (parfois exclusifs) qui peuvent nécessiter une interaction avec les répertoires locaux et ceux d’autres fournisseurs de services d’informatique en nuage.</p><p>Les nombreuses variantes de nuage, telles que SaaS (logiciel en tant que solution), PaaS (logiciel en tant que solution) et IaaS (infrastructure en tant que solution), ainsi que les différences entre le nuage public, le nuage hybride et le nuage privé ont une incidence sur les options de GIJA disponibles.</p>"
         }
     },
     {
@@ -40,7 +40,7 @@
         },
         "detail": {
             "en": "<p>As with applications, devices take many forms including desktops, laptops, tablets, cell phones, voice assistants and IoT (e.g., scanners, surveillance cameras, electronic sensors). These are managed devices where the GC controls authentication and authorization of their use. Mechanisms for authentication vary and can include passwords, PINs, biometrics (e.g., face or fingerprint) as well as MFA. In the best cases a TPM (trusted platform module) is available on the device to allow it to relay the user authentication that was performed to the device to other endpoints.</p><p>Devices come in many flavours of operating system, capabilities, versions, so obtaining a consistent level of ICAM security across many disparate devices can be a challenge.</p>",
-            "fr": ""
+            "fr": "<p>Comme pour les applications, les dispositifs prennent de nombreuses formes, comme l’ordinateur de bureau, l’ordinateur portatif, la tablette, le téléphone cellulaire, l’assistant vocal et l’IdO (p. ex., des lecteurs optiques, des caméras de surveillance ou des capteurs électroniques). Il s’agit de dispositifs gérés où le GC contrôle l’authentification et l’autorisation de leur utilisation. Les mécanismes d’authentification varient et peuvent comprendre les mots de passe, les NIP, les données biométriques (p. ex., le visage ou l’empreinte digitale) ainsi que l’authentification multifactorielle. Dans le meilleur des cas, un TPM (modules de plateforme sécurisée) est disponible sur le périphérique pour lui permettre de relayer l’authentification utilisateur effectuée sur le périphérique vers d’autres points de terminaison.</p><p>Les dispositifs sont offerts sous de nombreux différents systèmes d’exploitation, capacités et versions, ce qui peut rendre difficile d’obtenir un niveau de sécurité de GIJA cohérent sur de nombreux périphériques hétérogènes.</p>"
         }
     },
     {
@@ -51,11 +51,11 @@
         },
         "description": {
             "en": "the operating system and the computer that it runs on, combined with software that acts as a bridge between the operating system (or database) and various programs/applications",
-            "fr": "le système d'exploitation et l'ordinateur sur lequel il est exécuté, combiné à un logiciel qui sert de pont entre le système d'exploitation (ou la base de données) et divers programmes/applications"
+            "fr": "le système d’exploitation et l’ordinateur sur lequel il est exécuté, combiné à un logiciel qui sert de pont entre le système d’exploitation (ou la base de données) et divers programmes/applications"
         },
         "detail": {
             "en": "<p>A platform (or computing platform) is the combination of the operating system and the computer (particularly the CPU) that it runs on. Middleware is software that acts as a bridge between an operating system or database and applications, especially on a network.  As Gartner defines it, middleware is the software \u201cglue\u201d that helps programs and databases (which may be on different computers) work together. Its most basic function is to enable communication between different pieces of software.</p><p>Examples include container orchestration, serverless, virtualization, enterprise service bus, API gateway, devops orchestration, etc.</p>",
-            "fr": ""
+            "fr": "<p>Une plateforme (ou plateforme informatique) est la combinaison du système d’exploitation et de l’ordinateur (en particulier l’unité centrale) sur lequel il fonctionne. L’intergiciel est un logiciel qui sert de pont entre un système d’exploitation ou une base de données et des applications, en particulier sur un réseau.  Comme Gartner le définit, l’intergiciel est le logiciel qui sert de « colle » en aidant les programmes et les bases de données (qui peuvent être sur différents ordinateurs) à travailler ensemble. Sa fonction la plus basique est de permettre la communication entre différents logiciels.</p><p>Exemples : orchestration des contenants, environnement sans serveur, virtualisation, bus de services d’entreprise, passerelle API, orchestration des opérations de développement, entre autres.</p>"
         }
     },
     {
@@ -70,7 +70,7 @@
         },
         "detail": {
             "en": "<p>Infrastructure is a broad category that includes a wide range of technology components including:<ul><li>servers (e.g., databases, proxies, storage/backup, domain controllers, jump servers)</li><li>appliances (e.g., black-box devices, virtual appliances, storage, compute, high performance computing)</li><li>network components (e.g., routers, switches, firewalls, access points)</li><li>data centre (e.g., HVAC systems, power management, physical security systems)</li></ul></p><p>Infrastructure components need to be identified, catalogued and issued credentials as necessary to support authentication between (and with) these components.</p>",
-            "fr": ""
+            "fr": "<p>L’infrastructure est une vaste catégorie qui comprend un large éventail de composantes technologiques, notamment :<ul><li>les serveurs (p. ex., bases de données, serveurs proxy, sauvegarde et récupération, contrôleurs de domaine, serveurs intermédiaires);</li><li>les appareils (p. ex., boîtes noires, appareils virtuels, stockage, informatique, calcul de haut rendement);</li><li>les composantes de réseau (p. ex., routeurs, commutateurs, pare-feu, points d’accès);</li><li>les centres de données (p. ex., systèmes de chauffage, de ventilation et de conditionnement d’air, gestion de l’énergie, systèmes de sécurité physique).</li></ul></p><p>Les composantes de l’infrastructure doivent être identifiées et cataloguées, et il faut émettre des justificatifs d’identité, selon les besoins, afin d’appuyer l’authentification entre (et avec) ces composantes.</p>"
         }
     },
     {
@@ -85,7 +85,7 @@
         },
         "detail": {
             "en": "<p>Facilities or physical access control systems (PACS) also require the full suite of ICAM functions to make access control decisions. On the other hand, the physical components that make up a PACS are completely different than those that make up a logical access control system (LACS), so interoperability between PACS and LACS is an important consideration in achieving a single, cohesive ICAM solution for the GC. In particular, the authoritative sources, identity management systems, and credential management systems must be interoperable across LACS and PACS.</p>",
-            "fr": ""
+            "fr": "<p>Les installations ou les systèmes de contrôle d’accès physique (SCAP) ont également besoin de l’ensemble complet des fonctions de GIJA pour prendre des décisions en matière de contrôle d’accès. D’autre part, les composantes physiques qui constituent un SCAP sont complètement différentes de celles qui constituent un système de contrôle d’accès logique (SCAL), de sorte que l’interopérabilité entre le SCAP et le SCAL est un facteur important dans la réalisation d’une solution de GIJA unique et cohérente pour le GC. Plus particulièrement, les sources autorisées, les systèmes de gestion de l’identité et les systèmes de gestion des justificatifs d’identité doivent être interopérables dans les SCAL et les SCAP. </p>"
         }
     }
 ]

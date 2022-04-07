@@ -2,7 +2,7 @@
         "id": "directories-inventory",
         "title": {
             "en": "Directories & Inventory Systems",
-            "fr": "Répertoires et systèmes d'inventaire"
+            "fr": "Répertoires et systèmes d’inventaire"
         },
         "description": {
             "en": "systems or data repositories that store information about users and NPEs",
@@ -10,7 +10,7 @@
         },
         "detail": {
             "en": "<p>Directories are a common mechanism for storing information about users and NPEs. Directories have the advantage of being widely accessible and can be used to publish authoritative attributes from other sources and can also be the authoritative source for certain attributes such as credentials and certain identity attributes.</p><p>Inventory systems keep track of which components are valid for certain purposes. For example, an inventory of all an organization's devices should be part of a Zero Trust architecture, so that it is possible to restrict access only to devices that have been suitably approved and are known to the organization.</p>",
-            "fr": ""
+            "fr": "<p>Les répertoires sont un mécanisme commun de stockage des renseignements sur les utilisateurs et les entités qui ne sont pas des personnes. Les répertoires ont l’avantage d’être largement accessibles. Ils peuvent être utilisés pour publier des attributs autorisés d’autres sources et être également la source autorisée pour certains attributs tels que les références et pour certains attributs d’identité. </p><p>Les systèmes d’inventaire permettent de déterminer quelles composantes sont valides à certaines fins. Par exemple, l’inventaire de tous les appareils d’une organisation doit faire partie d’une architecture zéro confiance, de sorte qu’il est possible de limiter l’accès aux appareils qui ont été approuvés de façon appropriée et qui sont connus de l’organisation.</p>"
         }
     },
     {
@@ -21,11 +21,11 @@
         },
         "description": {
             "en": "sources of certain identity information associated with internal users",
-            "fr": "sources de certains renseignements d'identité liés aux utilisateurs internes"
+            "fr": "sources de certains renseignements d’identité liés aux utilisateurs internes"
         },
         "detail": {
             "en": "<p>These are foundational sources of GC user attributes which can be used to make access control decisions and possibly also identity-proofing decisions. Examples of authoritative attributes may include the name of an employee from an HR system, the name of a contractor from a finance system, or security clearance level of an individual from a personnel security screening database.</p>",
-            "fr": ""
+            "fr": "<p>Il s’agit de sources fondamentales d’attributs utilisateur du GC qui peuvent être utilisées pour prendre des décisions en matière de contrôle de l’accès et peut-être aussi en matière de vérification de l’identité. Des exemples d’attributs autorisés comprennent le nom d’un employé à partir d’un système de RH, le nom d’un entrepreneur d’un système de finances ou le niveau d’habilitation de sécurité d’une personne à partir d’une base de données des mesures de sécurité du personnel.</p>"
         }
     },
     {
@@ -36,11 +36,11 @@
         },
         "description": {
             "en": "sources of identity information primarily for non-Canadian citizens and, in some cases,  Canadian citizens as well",
-            "fr": "sources de renseignements sur l'identité, principalement pour les citoyens non canadiens et, dans certains cas, les citoyens canadiens aussi"
+            "fr": "sources de renseignements sur l’identité, principalement pour les citoyens non canadiens et, dans certains cas, les citoyens canadiens aussi"
         },
         "detail": {
             "en": "<p>Identity information on non-citizens will need to come from trusted non-Canadian sources. GC organizations have relationships with foreign entities and need trusted sources for identity information before allowing access to GC resources. Examples of trusted international sources might be passports from trusted partner nations and attestations from trusted foreign organizations (e.g., in the defence or law enforcement realm).</p>",
-            "fr": ""
+            "fr": "<p>L’information sur l’identité des non-citoyens devra provenir de sources non canadiennes de confiance. Les organisations gouvernementales ont des relations avec des entités étrangères et ont besoin de sources fiables pour obtenir de l’information sur l’identité avant de permettre l’accès aux ressources du GC. Des exemples de sources internationales de confiance pourraient être les passeports de pays partenaires de confiance et les attestations d’organisations étrangères de confiance (p. ex., dans le domaine de la défense ou de l’application de la loi).</p>"
         }
     },
     {
@@ -55,7 +55,7 @@
         },
         "detail": {
             "en": "<p>The GC interacts with various levels of government ranging from provinces and territories to municipalities, including, for example, law enforcement, health care, and judicial. Provinces and territories play a critical role in foundational identity by operating the vital statistics organizations that record all life events (e.g., births, deaths, marriage, name change) as well as information about business (e.g., articles of incorporation, permits, licenses) in their jurisdiction. In addition, a number of GC departments (e.g., RCMP, Health Canada) need to share access to GC data with other levels of government, thus requiring authentication of users and trusted access control decisions that rely on authoritative sources from other levels of government.</p><p>User experience and security can be enhanced by leveraging already-established trusted digital identities from other levels of government.</p>",
-            "fr": ""
+            "fr": "<p>Le gouvernement du Canada interagit avec divers ordres de gouvernement, des provinces et des territoires aux municipalités, y compris, par exemple, les organismes d’application de la loi, les soins de santé et la justice. Les provinces et les territoires jouent un rôle essentiel dans l’identité fondamentale en exploitant les organismes responsables des données de l’état civil qui enregistrent tous les événements de la vie (p. ex., naissances, décès, mariage, changement de nom) ainsi que l’information commerciale (p. ex., statuts constitutifs, permis et licences) dans leur territoire. De plus, un certain nombre de ministères du GC (p. ex., la Gendarmerie royale du Canada et Santé Canada) doivent partager l’accès aux données gouvernementales avec d’autres ordres de gouvernement, ce qui exige l’authentification des utilisateurs et des décisions de contrôle d’accès de confiance qui s’appuient sur des sources autorisées d’autres ordres de gouvernement.</p><p>L’expérience et la sécurité des utilisateurs peuvent être améliorées en exploitant des identités numériques de confiance déjà établies d’autres ordres de gouvernement.</p>"
         }
     },
     {
@@ -70,7 +70,7 @@
         },
         "detail": {
             "en": "<p>The GC interacts with many industry partners for exchanging information or giving access to GC resources. Businesses are the authoritative source for information about their business, such as business name, area of business, and employee information.</p><p>Industry also has identity information collected about their customers (e.g., financial institutions, insurance companies, telecom providers), which can potentially be used (with user consent) as part of identity-proofing or authenticating users accessing GC systems. However, it should be noted that industry identity sources may not always be as strong as foundational government sources, but nevertheless could be used as supporting sources to augment cases where the government sources are not sufficient.</p>",
-            "fr": ""
+            "fr": "<p>Le GC interagit avec de nombreux partenaires de l’industrie pour échanger de l’information ou donner accès à ses ressources. Les entreprises sont la source d’information faisant autorité sur leurs opérations, comme le nom de l’entreprise, le secteur d’activité et l’information sur les employés.</p><p>L’industrie recueille également des renseignements sur l’identité de ses clients (p. ex., institutions financières, compagnies d’assurance, fournisseurs de services de télécommunication), qui peuvent être utilisés (avec le consentement de l’utilisateur) dans le cadre de l’identification ou de la validation des utilisateurs qui accèdent aux systèmes du GC. Toutefois, il convient de noter que les sources d’identité de l’industrie peuvent ne pas toujours être aussi solides que les sources gouvernementales fondamentales, mais qu’elles pourraient néanmoins servir de sources d’appui pour accroître les cas où les sources gouvernementales ne sont pas suffisantes.</p>"
         }
     },
     {
@@ -81,11 +81,11 @@
         },
         "description": {
             "en": "sources of information that do not fall under one of the other categories",
-            "fr": "sources de renseignements qui ne relèvent pas d'une des autres catégories"
+            "fr": "sources de renseignements qui ne relèvent pas d’une des autres catégories"
         },
         "detail": {
             "en": "<p>There are many other identity sources that may play a role in providing identity attributes. Some examples are:<ul><li>Learning management systems, which are a source of proof of educational credential that may be a pre-requisite to access a certain resource or do a certain job.</li><li>Behavioural, possibly AI-based, systems which keep track of a user's typical patterns of usage and behaviour to identify anomalous access patterns that may be associated with an imposter.</li><li>Privileged access management repositories</li><li>Social media or crowd-sourced identity (likely weak level of assurance)</li><li>Entitlements and policy rules repositories</li><li>Activity logs</li><li>Risk-based rules repositories</li><li>Attributes stored in PKI certificates (likely high level of assurance)</li><li>Platform-specific repositories (e.g., OS/400)</li></ul></p>",
-            "fr": ""
+            "fr": "<p>Il existe de nombreuses autres sources d’identité qui peuvent jouer un rôle dans la fourniture d’attributs d’identité. En voici des exemples :<ul><li>Les systèmes de gestion de l’apprentissage, qui sont la source de preuve de l’obtention d’un diplôme d’études pouvant être un préalable à l’accès à une certaine ressource ou à l’exercice d’un certain emploi.</li><li>Les systèmes comportementaux, peut-être basés sur l’intelligence artificielle (IA), qui permettent de suivre les habitudes d’utilisation et de comportement typiques d’un utilisateur afin d’identifier les modèles d’accès anormaux qui peuvent être associés à un imposteur.</li><li>Les référentiels de gestion des privilèges d’accès (GPA).</li><li>Les médias sociaux ou l’identité collaborative (probablement faible niveau d’assurance).</li><li>Les référentiels pour les droits et référentiels et les règles de politique.</li><li>Les journaux d’activité.</li><li>Les référentiels de règles fondés sur les risques.</li><li>Les attributs stockés dans les certificats d’ICP (niveau d’assurance probablement élevé).</li><li>Les référentiels spécifiques à une plateforme (p. ex., OS/400).</li></ul></p>"
         }
     }
 ]

@@ -2,15 +2,15 @@
         "id": "identity-proofing",
         "title": {
             "en": "Identity Proofing",
-            "fr": "Vérification de l'identité"
+            "fr": "Vérification de l’identité"
         },
         "description": {
             "en": "the function of collecting evidence [identity attributes] which supports a claim of identity [for a specific entity] and the validation and verification of that evidence so as to determine the veracity (or otherwise) of the claim",
-            "fr": "la fonction de collecte de preuves [attributs identitaires] qui appuie une déclaration d'identité [pour une entité particulière] ainsi que la validation et la vérification de cette preuve afin de déterminer la véracité (ou autrement) de la revendication"
+            "fr": "la fonction de collecte de preuves [attributs identitaires] qui appuie une déclaration d’identité [pour une entité particulière] ainsi que la validation et la vérification de cette preuve afin de déterminer la véracité (ou autrement) de la revendication"
         },
         "detail": {
-            "en": "<p>Identity is a reference or designation used to distinguish a unique and particular individual, organization, device, application, or any other applicable resource. Identity Proofing is &ldquo;the function of collecting evidence [identity attributes] which supports a claim of identity [for a specific entity] and the validation and verification of that evidence so as to determine the veracity (or otherwise) of the claim.</p> <p>The rigor of the Identity Proofing process depends on the Level of Assurance (LoA) required as described in the <a href=\"https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678\" target=\"_blank\" ><em>Guideline on Identity Assurance</em></a>. In some cases, specific identity proofing requirements are identified based on the specific program or service offered (e.g., proof of identity for a passport or a health card are published on-line)</p> <p>Identity Proofing may be performed centrally on behalf of multiple GC programs and services (e.g., personnel security screening and HR functions) or it may be performed directly by the program or service being accessed (e.g., My Service Canada Account links an otherwise anonymous credential such as GCKey to an individual using a code sent directly to that individual via a reliable delivery method such as physical mail to a pre-registered postal address).</p>",
-            "fr": ""
+            "en": "<p>Identity is a reference or designation used to distinguish a unique and particular individual, organization, device, application, or any other applicable resource. Identity Proofing is &ldquo;the function of collecting evidence [identity attributes] which supports a claim of identity [for a specific entity] and the validation and verification of that evidence so as to determine the veracity (or otherwise) of the claim.</p> <p>The rigor of the Identity Proofing process depends on the Level of Assurance (LoA) required as described in the <a href=\"https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=30678\" target=\"_blank\" ><em>Guideline on Identity Assurance</em></a>. In some cases, specific identity proofing requirements are identified based on the specific program or service offered (e.g., proof of identity for a passport or a health card are published on-line)</p><p>Identity Proofing may be performed centrally on behalf of multiple GC programs and services (e.g., personnel security screening and HR functions) or it may be performed directly by the program or service being accessed (e.g., My Service Canada Account links an otherwise anonymous credential such as GCKey to an individual using a code sent directly to that individual via a reliable delivery method such as physical mail to a pre-registered postal address).</p>",
+            "fr": "<p>L’identité est une référence ou une désignation utilisée pour différencier une personne, une organisation, une application ou un appareil unique ou particulier, ou toute autre ressource applicable . La vérification de l’identité est « la fonction de collecte de preuves [attributs identitaires] qui appuie une déclaration d’identité [pour une entité particulière] ainsi que la validation et la vérification de cette preuve afin de déterminer la véracité (ou autrement) de la revendication ».</p><p>La rigueur du processus de vérification de l’identité dépend du niveau d’assurance (NA) requis tel que décrit dans la <a href=\"https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=30678\" target=\"_blank\" ><em>Ligne directrice sur l’assurance de l’identité</em></a>. Dans certains cas, des exigences précises en matière de vérification de l’identité sont établies en fonction du programme ou du service offert (p. ex., la preuve d’identité pour un passeport ou une carte de santé est publiée en ligne).</p><p>La vérification de l’identité peut être effectuée de façon centralisée pour le compte de plusieurs programmes et services du GC (p. ex., filtrage de sécurité du personnel et fonctions des ressources humaines [RH]) ou directement par le programme ou le service auquel on a accès (p. ex., Mon dossier Service Canada lie un justificatif d’identité anonyme, tel que CléGC, à une personne en utilisant un code envoyé directement à cette personne par un mode de livraison fiable, comme le courrier physique à une adresse postale pré-enregistrée).</p>"
         }
     },
     {
@@ -21,11 +21,11 @@
         },
         "description": {
             "en": "to formally establish that an organization or Non-Person Entity (NPE) requires access to GC resources",
-            "fr": "établir officiellement qu'une organisation ou une entité qui n'est pas une personne doit avoir accès aux ressources du GC"
+            "fr": "établir officiellement qu’une organisation ou une entité qui n’est pas une personne doit avoir accès aux ressources du GC"
         },
         "detail": {
             "en": "<p> Sponsorship is required to formally establish that an organization or Non-Person Entities (NPE) entity requires access to GC resources. The authorized sponsor becomes responsible for managing the lifecycle of these relationships over time. </p>",
-            "fr": ""
+            "fr": "<p>Le parrainage est nécessaire pour établir officiellement qu’une organisation ou une entité qui n’est pas une personne doit avoir accès aux ressources du GC. Le parrain autorisé devient responsable de la gestion du cycle de vie de ces relations au fil du temps.</p>"
         }
     }
 ]
