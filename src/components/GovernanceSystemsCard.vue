@@ -1,7 +1,7 @@
 <template>
   <base-card class="governance container">
     <base-card-title
-      ><router-link to="/governance-systems">{{
+      ><router-link :to="`/${this.$i18n.locale}/governance-systems`">{{
         $t("governanceSystems")
       }}</router-link></base-card-title
     >

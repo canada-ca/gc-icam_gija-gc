@@ -1,7 +1,7 @@
 <template>
   <div class="resourceConsumers">
     <h5>
-      <router-link to="/resource-consumers">{{
+      <router-link :to="`/${this.$i18n.locale}/resource-consumers`">{{
         $t("resourceConsumers")
       }}</router-link>
     </h5>

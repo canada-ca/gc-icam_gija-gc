@@ -1,7 +1,7 @@
 <template>
   <base-card class="federation">
     <card-title
-      ><router-link to="/federation">{{
+      ><router-link :to="`/${this.$i18n.locale}/federation`">{{
         $t("federation")
       }}</router-link></card-title
     >
