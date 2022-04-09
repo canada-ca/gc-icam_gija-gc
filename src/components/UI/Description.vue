@@ -1,15 +1,22 @@
 <template>
   <div class="container">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <router-link :to="lang">{{ $t("home") }}</router-link>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">
-          {{ header }}
-        </li>
-      </ol>
-    </nav>
+    <div class="row mt-3">
+      <div class="col-11">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <router-link :to="lang">{{ $t("home") }}</router-link>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              {{ header }}
+            </li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col-1">
+        <toggle-language></toggle-language>
+      </div>
+    </div>
     <div class="row">
       <div class="col-2 start pt-3" :class="mode">
         <h5>{{ header }}</h5>
@@ -30,9 +37,11 @@
 
 <script>
 import DescriptionCard from "./DescriptionCard.vue";
+import ToggleLanguage from "./ToggleLanguage.vue";
 export default {
   components: {
-    DescriptionCard
+    DescriptionCard,
+    ToggleLanguage
   },
   props: ["header", "mode", "items"],
   computed: {
