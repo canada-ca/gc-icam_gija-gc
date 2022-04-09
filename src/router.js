@@ -18,35 +18,35 @@ const router = createRouter({
       redirect: "home"
     },
     {
-      path: '/resource-consumers',
+      path: '/:lang/resource-consumers',
       component: ResourceConsumers
     },
     {
-      path: '/governance-systems',
+      path: '/:lang/governance-systems',
       component: GovernanceSystems
     },
     {
-      path: '/authoritative-sources',
+      path: '/:lang/authoritative-sources',
       component: AuthoritativeSources
     },
     {
-      path: '/identity-management',
+      path: '/:lang/identity-management',
       component: IdentityManagement
     },
     {
-      path: '/federation',
+      path: '/:lang/federation',
       component: Federation
     },
     {
-      path: '/access-management',
+      path: '/:lang/access-management',
       component: AccessManagement
     },
     {
-      path: '/protected-resources',
+      path: '/:lang/protected-resources',
       component: ProtectedResources
     },
     {
-      path: '/credential-management',
+      path: '/:lang/credential-management',
       component: CredentialManagement
     },
     {
