@@ -1,7 +1,12 @@
 <template>
   <div class="row align-items-center">
     <div class="col-2" :class="mode">
-      <base-button>{{ title[this.$i18n.locale] }}</base-button>
+      <base-button
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        @click="showDetail"
+        >{{ title[this.$i18n.locale] }}</base-button
+      >
     </div>
     <div class="col-1">
       <fa icon="right-long"></fa>
@@ -14,6 +19,12 @@
 import BaseButton from "./BaseButton.vue";
 export default {
   components: { BaseButton },
-  props: ["title", "description", "mode"]
+  emits: ["detail"],
+  props: ["title", "description", "mode", "detail"],
+  methods: {
+    showDetail() {
+      this.$emit("detail");
+    }
+  }
 };
 </script>
