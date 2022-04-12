@@ -27,26 +27,44 @@
       :key="item.id"
       :title="item.title"
       :description="item.description"
+      :detail="item.detail"
+      @detail="showDetail(item)"
       :mode="mode"
     ></description-card>
     <div class="row">
       <div class="col-2 end" :class="mode">&nbsp;</div>
     </div>
+    <modal-card :modalHead="modalHead" :modalBody="modalBody" />
   </div>
 </template>
 
 <script>
 import DescriptionCard from "./DescriptionCard.vue";
 import ToggleLanguage from "./ToggleLanguage.vue";
+import ModalCard from "./ModalCard.vue";
+
 export default {
   components: {
     DescriptionCard,
-    ToggleLanguage
+    ToggleLanguage,
+    ModalCard
+  },
+  data() {
+    return {
+      modalHead: "",
+      modalBody: ""
+    };
   },
   props: ["header", "mode", "items"],
   computed: {
     lang() {
       return "/" + this.$i18n.locale;
+    }
+  },
+  methods: {
+    showDetail(info) {
+      this.modalHead = info.title[this.$i18n.locale];
+      this.modalBody = info.detail[this.$i18n.locale];
     }
   }
 };
