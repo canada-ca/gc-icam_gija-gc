@@ -1,7 +1,7 @@
 <template>
   <base-card class="access">
     <card-title
-      ><router-link to="/access-management">{{
+      ><router-link :to="`/${this.$i18n.locale}/access-management`">{{
         $t("accessManagement")
       }}</router-link></card-title
     >

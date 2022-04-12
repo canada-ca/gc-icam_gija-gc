@@ -6,13 +6,7 @@
         <fa icon="circle-exclamation"></fa> {{ $t("message") }}
       </div>
       <div class="col-1 mt-3">
-        <a
-          href="#"
-          title="Français - Version française de cette page"
-          lang="fr"
-          @click="toggleLang"
-          >{{ computedLang }}</a
-        >
+        <toggle-language></toggle-language>
       </div>
     </div>
     <div class="row">
@@ -102,6 +96,7 @@ import ResourceConsumersCard from "./ResourceConsumersCard.vue";
 import CredentialManagementCard from "./CredentialManagementCard.vue";
 import LevelAssurance from "./LevelAssurance.vue";
 import ModalCard from "./UI/ModalCard.vue";
+import ToggleLanguage from "./UI/ToggleLanguage.vue";
 
 export default {
   components: {
@@ -115,22 +110,13 @@ export default {
     ResourceConsumersCard,
     CredentialManagementCard,
     LevelAssurance,
-    ModalCard
+    ModalCard,
+    ToggleLanguage
   },
   methods: {
     showDetail(info) {
       this.modalHead = info.title[this.$i18n.locale];
       this.modalBody = info.detail[this.$i18n.locale];
-    },
-    toggleLang() {
-      if (this.$i18n.locale == "fr") {
-        this.$i18n.locale = "en";
-      } else {
-        this.$i18n.locale = "fr";
-      }
-      let locale = this.$i18n.locale;
-      localStorage.setItem("locale", locale);
-      this.$router.push("/" + locale);
     },
     reloadPopover() {
       Array.from(
@@ -139,11 +125,6 @@ export default {
         Popover.getInstance(popoverNode)?.dispose();
         return new Popover(popoverNode);
       });
-    }
-  },
-  computed: {
-    computedLang() {
-      return this.$i18n.locale == "fr" ? "English" : "Français";
     }
   },
   data() {

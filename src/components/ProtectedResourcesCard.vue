@@ -1,7 +1,7 @@
 <template>
   <base-card class="protectedResource">
     <card-title
-      ><router-link to="/protected-resources">{{
+      ><router-link :to="`/${this.$i18n.locale}/protected-resources`">{{
         $t("protectedResources")
       }}</router-link></card-title
     >

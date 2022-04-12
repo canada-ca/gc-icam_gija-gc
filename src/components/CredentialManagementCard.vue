@@ -1,7 +1,7 @@
 <template>
   <base-card class="credential container">
     <base-card-title
-      ><router-link to="/credential-management">{{
+      ><router-link :to="`/${this.$i18n.locale}/credential-management`">{{
         $t("credentialManagement")
       }}</router-link></base-card-title
     >
