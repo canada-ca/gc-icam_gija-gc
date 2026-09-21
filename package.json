@@ -18,9 +18,9 @@
         "bootstrap": "^5.3.8",
         "bootstrap-icons": "^1.13.1",
         "core-js": "^3.50.0",
-        "vue": "^3.0.0",
-        "vue-i18n": "^11.4.10",
-        "vue-router": "^5.2.0"
+        "vue": "^3.5.43",
+        "vue-i18n": "^11.4.12",
+        "vue-router": "^5.3.1"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "~5.0.9",
