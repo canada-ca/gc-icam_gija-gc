@@ -95,7 +95,7 @@
             "fr": "Signature électronique"
         },
         "description": {
-            "en": "an electronic representation of a individual's signature that links that person to an electronic document or transaction and provides evidence of that person's intent to approve or to be legally bound by its contents",
+            "en": "an electronic representation of an individual's signature that links that person to an electronic document or transaction and provides evidence of that person's intent to approve or to be legally bound by its contents",
             "fr": "une représentation électronique de la signature d’une personne qui lie cette personne à un document ou à une transaction électronique et qui fournit une preuve de l’intention de cette personne d’approuver ou d’être légalement liée par son contenu"
         },
         "detail": {
